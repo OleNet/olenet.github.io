@@ -1,8 +1,8 @@
 # Site
-title:              Massively
+title:              OleNet_I_❤️_AngleZou
 bio:                'Jekyll version of the Massively theme by HTML5UP'
-description:        "Jekyll version of the Massively theme by HTML5UP"
-locale:             en_US
+description:        "Olé is an interjection. an exclamation of approval or encouragement customary at bullfights, flamenco dancing, and other Spanish or Latin American events. noun."
+locale:             cn
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
@@ -41,9 +41,9 @@ instagram:          default
 github:             default
 
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com
+location:           Beijing
+phone:              xxx-xxxx-xxxx
+email:              olenet@126.com
 
 # Gems
 gems:
