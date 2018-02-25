@@ -1,5 +1,5 @@
 # Site
-title:              OleNet_I_❤️_AngleZou
+title:              OleNet
 bio:                'Jekyll version of the Massively theme by HTML5UP'
 description:        "Olé is an interjection. an exclamation of approval or encouragement customary at bullfights, flamenco dancing, and other Spanish or Latin American events. noun."
 locale:             cn
@@ -35,10 +35,11 @@ disqus_shortname:   default
 
 # Social
 analytics-id:       "default"
-twitter:            default
+twitter:            LIUJiaXiang
 facebook:           default
 instagram:          default
-github:             default
+github:             OleNet
+500px:              olenet
 
 # personal
 location:           Beijing
