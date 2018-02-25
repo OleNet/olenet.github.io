@@ -3017,6 +3017,7 @@
 		-ms-transition: opacity 0.5s ease;
 		transition: opacity 0.5s ease;
 		position: relative;
+		padding-top: 4rem;
 		z-index: 1;
 		overflow: hidden;
 	}
@@ -3424,7 +3425,7 @@
 		background: rgba(255, 255, 255, 0.175);
 		height: 4rem;
 		line-height: 4rem;
-		margin: -4rem auto 0 auto;
+		margin: 0 auto;
 		overflow: hidden;
 		padding: 0 2rem 0 0;
 		position: relative;
