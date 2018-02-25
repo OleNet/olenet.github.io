@@ -15,8 +15,7 @@ Hi, there,
 我是刘佳祥。算法工程师，现就职于百度工作，从事NLP的相关工作。
 生活太美好，需要记录和分享。
 
-我有很多喜欢的事情, 包括但不限于:
-
+我有很多喜欢的事情, 包括但不限于:<br> 
 CS、 ML、 NLP、 DM、Photography、 Cuisine、 Guitar、 Music、 Travel, Language Studying.
 
 
