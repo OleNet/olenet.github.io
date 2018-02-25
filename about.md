@@ -10,11 +10,14 @@ sitemap:
 ## About our Site
 
 <span class="image left"><img src="{{ "/images/pic04.jpg" | absolute_url }}" alt="" /></span>
+Hi, there,
 
-Recording beautiful life, including but not limited to 
-computer science, machine learnig, natrual language processing, data mining, photography, cuisine, guitar, music, cultrue, english studying.
+我是刘佳祥。算法工程师，现就职于百度工作，从事NLP的相关工作。
+生活太美好，需要记录和分享。
 
-On social media, we may share our own thoughts and advance our image notwithstanding spreading musings for different associations and affiliations. With such a critical number of associations with people and relationship on social media, our experience can be over-burden with a considerable measure of information.
+我有很多喜欢的事情, 包括但不限于:
+
+CS、 ML、 NLP、 DM、Photography、 Cuisine、 Guitar、 Music、 Travel, Language Studying.
 
 
 <!--
