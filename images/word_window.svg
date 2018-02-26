@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 1 -->
+<svg x="0" y="0" width="1466" height="824" viewBox="0 0 1466 824" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+<clipPath id="c0_1"><path d="M0,825L0,0L1466.7,0l0,825Z" /></clipPath>
+
+<style type="text/css"><![CDATA[
+
+.g1_1{
+fill: #FFFFFF;
+}
+.g2_1{
+fill: #ED7D31;
+}
+.g3_1{
+fill: none;
+stroke: #AF5C24;
+stroke-width: 1.513264;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+stroke-miterlimit: 7;
+}
+.g4_1{
+fill: #4472C4;
+}
+.g5_1{
+fill: #365B9C;
+}
+.g6_1{
+fill: none;
+stroke: #325490;
+stroke-width: 1.513264;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+stroke-miterlimit: 7;
+}
+.g7_1{
+fill: none;
+stroke: #4472C4;
+stroke-width: 0.77825004;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+}
+
+.s1_1{
+font-size: 27.50px;
+font-family: DejaVuSans_9;
+fill: #FFFFFF;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,824
+L1466,824
+L1466,0 Z " 
+fill="#FFFFFF" stroke="none" />
+<g clip-path="url(#c0_1)">
+<path fill-rule="evenodd" d="M0,0.1l1466.7,0l0,825L0,825.1L0,0.1Z" class="g1_1" />
+<path fill-rule="evenodd" d="M0,0.1l1466.7,0l0,825L0,825.1L0,0.1Z" class="g1_1" />
+</g>
+<path fill-rule="evenodd" d="M259.3,236.6l-144.9,0l0,-126.5l289.7,0l0,126.5l-144.8,0Z" class="g2_1" />
+<path d="M259.3,236.6l-144.9,0l0,-126.5l289.7,0l0,126.5l-144.8,0Z" class="g3_1" />
+<text 
+x="137" 
+y="151" 
+dx="0,0,0,-0.1,0,0,0,-0.1,-0.1,0.2,0,0.1,0,0.1,0.1,0,0,0" 
+class="s1_1"
+>Sentence: [a, b c]</text>
+
+<text 
+x="142" 
+y="184" 
+dx="0,0.1,0,0,0,0,0,0.1,0.1,0,-1,0,0,0.1,0,-0.4,0,-0.1,0.1" 
+class="s1_1"
+>Labels: [Per, Loc, </text>
+
+<text 
+x="230" 
+y="217" 
+dx="0,-0.5,0,0" 
+class="s1_1"
+>Loc]</text>
+
+<path fill-rule="evenodd" d="M481.7,424.1l233.1,0l0,204.2l-38.9,38.8l-194.2,0l0,-243Z" class="g4_1" />
+<path fill-rule="evenodd" d="M675.9,667.1l7.8,-31l31.1,-7.8l-38.9,38.8Z" class="g5_1" />
+<path d="M675.9,667.1l7.8,-31l31.1,-7.8l-38.9,38.8l-194.2,0l0,-243l233.1,0l0,204.2" class="g6_1" />
+<text 
+x="500" 
+y="421" 
+dx="0,-1.5,0,-0.5,0,0,0.1,-0.1,0,0,0,0" 
+class="s1_1"
+>Word_vector=</text>
+
+<text 
+x="589" 
+y="454" 
+dx="0" 
+class="s1_1"
+>{</text>
+
+<text 
+x="495" 
+y="487" 
+dx="0,0,0,0,0.1,0.1,-0.1,0.1,-0.1,0,0.1,-0.1,0.1,-0.1,0" 
+class="s1_1"
+>&lt;s&gt;:[0.2, 0.4],</text>
+
+<text 
+x="517" 
+y="520" 
+dx="0,0,0.2,0,-0.1,0.1,-0.1,0.1,0,-0.1,0.1,-0.1,0.1" 
+class="s1_1"
+>a:[0.1, 0.2],</text>
+
+<text 
+x="517" 
+y="553" 
+dx="0,0,0.2,0,-0.1,0.1,-0.1,0.1,0,-0.1,0.1,-0.1,0.1" 
+class="s1_1"
+>b:[0.1, 0.3],</text>
+
+<text 
+x="518" 
+y="586" 
+dx="0,-0.1,0.2,0.1,-0.2,0.1,-0.1,0.1,0,-0.1,0.1,-0.1,0.1" 
+class="s1_1"
+>c:[0.2, 0.3],</text>
+
+<text 
+x="526" 
+y="619" 
+dx="0,0.2,0.1,0,0,0.1,0.1,-0.1,0,-0.1,0.1" 
+class="s1_1"
+>&lt;/s&gt;:[0.3, </text>
+
+<text 
+x="562" 
+y="652" 
+dx="0,-0.2,0.1,-0.1,0.1" 
+class="s1_1"
+>0.5]}</text>
+
+<path d="M259.3,236.8l0.1,68.3" class="g7_1" />
+<path fill-rule="evenodd" d="M259.4,313.6l-4.6,-9.2l9,0l-4.4,9.2Z" class="g4_1" />
+<path fill-rule="evenodd" d="M259.3,491l-144.9,0l0,-177.5l289.7,0l0,177.5l-144.8,0Z" class="g2_1" />
+<path d="M259.3,491l-144.9,0l0,-177.5l289.7,0l0,177.5l-144.8,0Z" class="g3_1" />
+<text 
+x="151" 
+y="363" 
+dx="0,-1.5,0.1,-0.5,-0.2,0.1,0,0,0,0,0.1,-1.5,0.1,0.1" 
+class="s1_1"
+>Word_window: [</text>
+
+<text 
+x="183" 
+y="396" 
+dx="0,0.1,0,0,0,0,0.1,0.1,0,0,0.1" 
+class="s1_1"
+>[&lt;s&gt;,a, b],</text>
+
+<text 
+x="201" 
+y="429" 
+dx="0,0.1,0,0.1,0.1,0,0,0.1,-0.1,0.1" 
+class="s1_1"
+>[a, b, c],</text>
+
+<text 
+x="174" 
+y="462" 
+dx="0,0.1,0,0.1,0,-0.1,0.1,0.1,0,0.1,0,0,0.1" 
+class="s1_1"
+>[b, c, &lt;\s&gt;]]</text>
+
+<path d="M481.6,545.5L267.7,545.1" class="g7_1" />
+<path fill-rule="evenodd" d="M259.3,544.9l9,-4.4l0,9l-9,-4.6Z" class="g4_1" />
+<path d="M259.3,491l0.1,100.8" class="g7_1" />
+<path fill-rule="evenodd" d="M259.4,600.4l-4.6,-9.2l9,0l-4.4,9.2Z" class="g4_1" />
+<path fill-rule="evenodd" d="M259.3,777.7l-160.8,0l0,-177.3l321.6,0l0,177.3l-160.8,0Z" class="g2_1" />
+<path d="M259.3,777.7l-160.8,0l0,-177.3l321.6,0l0,177.3l-160.8,0Z" class="g3_1" />
+<text 
+x="151" 
+y="600" 
+dx="0,-1.5,0,-0.5,0,0,0,0.1,0,0,0,-1.5,0.1,0.1" 
+class="s1_1"
+>Word_window: [</text>
+
+<text 
+x="109" 
+y="633" 
+dx="0,0.1,-0.1,0,-0.1,0.1,0,-0.1,0.1,-0.1,0,0.1,0,-0.1,0.1,0,-0.1,0.1,-0.1,0.1,0,-0.1,0.1,-0.1,0" 
+class="s1_1"
+>[0.2, 0.4,0.1, 0.2, 0.1, </text>
+
+<text 
+x="227" 
+y="666" 
+dx="0,-0.1,0.1,-0.1,0.1" 
+class="s1_1"
+>0.3],</text>
+
+<text 
+x="109" 
+y="699" 
+dx="0,0.1,-0.1,0,-0.1,0.1,0,-0.1,0.1,-0.1,0,0.1,-0.1,0.1,-0.1,0,-0.1,0.1,-0.1,0.1,0,-0.1,0.1,-0.1,0" 
+class="s1_1"
+>[0.1, 0.2, 0.1,0.3, 0.2, </text>
+
+<text 
+x="227" 
+y="732" 
+dx="0,-0.1,0.1,-0.1,0.1" 
+class="s1_1"
+>0.3],</text>
+
+<text 
+x="197" 
+y="765" 
+dx="0,0.1,-0.1,0.1,-0.1,0,0.1,-0.1,0.1,-0.2,0.1" 
+class="s1_1"
+>[0.1, 0.3, </text>
+
+<text 
+x="148" 
+y="798" 
+dx="0,-0.1,0.1,-0.1,0,-0.1,0.1,-0.1,0,0.1,0,-0.1,0.1,-0.1,0,-0.1,0.1" 
+class="s1_1"
+>0.2,0.3,0.3,0.5]]</text>
+
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: DejaVuSans_9;
+	src: url("fonts/DejaVuSans_9.woff") format("woff");
+}
+
+]]></style>
+
+</svg>
