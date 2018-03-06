@@ -25,6 +25,11 @@ kramdown:
   entity_output:    as_char
   toc_levels:       1..6
   enable_coderay:   false
+  input:  GFM
+  extensions:
+    - autolink
+    - footnotes
+    - smart
 mathjax:            true
 sass:
   sass_dir:         _sass
@@ -53,6 +58,7 @@ gems:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-toc
 
 paginate: 6
 paginate_path: "/blog/page:num/"
@@ -62,3 +68,4 @@ jekyll-mentions:
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
+
