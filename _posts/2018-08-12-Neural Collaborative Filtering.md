@@ -24,7 +24,7 @@ date:   2018-08-12
 
    评价指标用的是Hit Ratio和NDCG。
 
-   ![image-20180812221021151](/Users/liujiaxiang/Document/olenet.github.io/_posts/static/pics/ncf-1.png)
+   ![image-20180812221021151](./_posts/static/pics/ncf-1.png)
 
    
 

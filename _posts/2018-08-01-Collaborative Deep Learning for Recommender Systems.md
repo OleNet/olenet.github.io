@@ -23,9 +23,9 @@ date:   2018-08-01
 
    利用多任务框架，通过EncoderDecoder结构，引入外部知识，来学习item特征表达。再利用item-user向量相乘，预测ratings。
 
-   ![image-20180801135823359](/Users/liujiaxiang/Document/olenet.github.io/_posts/static/pics/2018-08-01-cdl.png)
+   ![image-20180801135823359](./_posts/static/pics/2018-08-01-cdl.png)
 
-   ![image-20180801135900227](/Users/liujiaxiang/Document/olenet.github.io/_posts/static/pics/2018-08-01-cdl-2.png)
+   ![image-20180801135900227](./_posts/static/pics/2018-08-01-cdl-2.png)
 
 5. 这篇文章的解决方法背后的物理意义是什么(Part-1)
 

@@ -5,7 +5,6 @@ toc: true
 excerpt: 
 date:   2018-07-23
 ---
-# Fully Statistical Neural Belief Tracking
 
 1. 这篇文章什么领域的
     对话系统

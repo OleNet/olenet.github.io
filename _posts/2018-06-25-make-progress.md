@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  ake-progress
+title:  make-progress
 toc: true 
 excerpt: 
 date:   2018-06-25
 ---
-Makeprogress
+
 有进展。
 
 很多时候，我们想做的事情很多，看这本书、跟踪另一个领域的最新进展。

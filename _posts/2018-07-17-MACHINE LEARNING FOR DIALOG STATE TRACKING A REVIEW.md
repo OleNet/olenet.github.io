@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  MACHINE LEARNING FOR DIALOG STATE TRACKING A REVIEW
+title:  Machine Learning For Dialog State Tracking A Review
 toc: true 
 excerpt: 
 date:   2018-07-17

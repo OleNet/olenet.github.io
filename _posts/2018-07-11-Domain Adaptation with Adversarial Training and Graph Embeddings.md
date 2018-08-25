@@ -5,7 +5,6 @@ toc: true
 excerpt: 
 date:   2018-07-11
 ---
-# Domain Adaptation with Adversarial Training and Graph Embeddings
 
 1. 这篇文章什么领域的
 

@@ -45,7 +45,7 @@ date:   2018-08-22
 
    具体的学习过程可以先看一下输入数据：
 
-   ![image-20180823003802850](/Users/liujiaxiang/Document/olenet.github.io/_posts/static/pics/optimization_as_a_model_for_few_shot_learning2.png)
+   ![image-20180823003802850](./static/pics/optimization_as_a_model_for_few_shot_learning2.png)
 
    这里面切记，以第一行为例，每一个baselearner领到了$meta-learner$分配的初始参数$w_0$之后，是由左至右,由$1\to\  t$即$1\to5$顺序进行的。每一个step完成后，向$meta-learning$汇报，再领取下一个step的参数$w_1$,以此类推。直到走到虚线右边，用$D_{test}$获取$meta-learner$的$loss$，更新$meta-learner$。
 

@@ -5,9 +5,6 @@ toc: true
 excerpt: 
 date:   2018-07-23
 ---
-# Logistic,ridge, lasso
-
-
 
 ## Logistic
 

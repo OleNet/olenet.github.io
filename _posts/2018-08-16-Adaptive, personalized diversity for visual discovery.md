@@ -18,7 +18,7 @@ date:   2018-08-16
 
    在信息瀑布的模式下，能够实时的、个性化的推荐用户商品，并且提高CTR。
 
-   ![image-20180816225506141](/Users/liujiaxiang/Document/olenet.github.io/_posts/static/pics/rec_amazn.png)
+   ![image-20180816225506141](./static/pics/rec_amazn.png)
 
 4. 这篇文章的解决方法表面是什么
 

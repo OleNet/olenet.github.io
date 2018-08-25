@@ -1,10 +1,4 @@
----
-layout: post
-title:  transition-based-depedency-parser-flow
-toc: true 
-excerpt: 
-date:   2018-02-26
----
+
 ---
 layout: post
 title:  "Neural Transition-Based Dependency Parsing Flow Chart"

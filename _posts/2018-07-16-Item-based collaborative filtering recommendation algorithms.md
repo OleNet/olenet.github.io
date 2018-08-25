@@ -5,7 +5,6 @@ toc: true
 excerpt: 
 date:   2018-07-16
 ---
-# Item-based collaborative filtering recommendation algorithms
 
 1. 这篇文章什么领域的
    推荐系统

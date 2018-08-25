@@ -5,7 +5,6 @@ toc: true
 excerpt: 
 date:   2018-07-09
 ---
-# Multi-instance learning
 
 多实例学习，我给他起一个名字，叫做钥匙串学习。
 

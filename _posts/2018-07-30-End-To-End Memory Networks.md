@@ -20,7 +20,7 @@ date:   2018-07-30
 
     在图中右侧引入了attention机制，即$O$模块的输出不是$o=argmax(In_k)$而是$p_i=softmax(In_k), o=\sum_{i}p_ic_i$
 
-    ![image-20180730121832322](/Users/liujiaxiang/Document/olenet.github.io/_posts/static/pics/e2ememnn-result.png)
+    ![image-20180730121832322](./_posts/static/pics/e2ememnn-result.png)
 
 4. 这篇文章的解决方法背后的物理意义是什么
 
