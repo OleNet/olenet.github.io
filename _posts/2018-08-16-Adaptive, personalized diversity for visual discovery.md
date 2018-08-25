@@ -5,7 +5,6 @@ toc: true
 excerpt: 
 date:   2018-08-16
 ---
-# Adaptive, personalized diversity for visual discovery
 
 1. 文章背景简介
 

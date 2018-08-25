@@ -5,7 +5,6 @@ toc: true
 excerpt: 
 date:   2018-08-22
 ---
-# Optimization As A Model For Few-shot Learning
 
 1. 文章背景简介
 

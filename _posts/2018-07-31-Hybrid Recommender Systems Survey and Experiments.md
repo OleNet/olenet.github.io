@@ -5,7 +5,6 @@ toc: true
 excerpt: 
 date:   2018-07-31
 ---
-# Hybrid Recommender Systems: Survey and Experiments
 
 1. 这篇文章什么领域的
     推荐系统(2002)

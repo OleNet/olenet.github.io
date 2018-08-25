@@ -5,7 +5,6 @@ toc: true
 excerpt: 
 date:   2018-07-23
 ---
-# Global-Locally Self-Attentive Dialogue State Tracker 
 
 1. 这篇文章什么领域的
     对话

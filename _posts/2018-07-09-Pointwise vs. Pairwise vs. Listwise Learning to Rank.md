@@ -5,7 +5,6 @@ toc: true
 excerpt: 
 date:   2018-07-09
 ---
-# Pointwise vs. Pairwise vs. Listwise Learning to Rank
 
 ## Pointwise 
 

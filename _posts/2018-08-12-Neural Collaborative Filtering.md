@@ -5,7 +5,6 @@ toc: true
 excerpt: 
 date:   2018-08-12
 ---
-# Neural Collaborative Filtering
 
 1. 文章背景简介
 

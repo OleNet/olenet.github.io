@@ -5,7 +5,6 @@ toc: true
 excerpt: 
 date:   2018-08-19
 ---
-# 推荐系统《Neural collaborative filtering》实验总结
 
 参考了作者公开的[源码1](https://github.com/hexiangnan/neural_collaborative_filtering)和另一个网友的[源码2](https://github.com/LaceyChen17/neural-collaborative-filtering)。
 
