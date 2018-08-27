@@ -22,12 +22,12 @@ date:   2018-08-25
    - **Encoder/decoder**
    - **Attention-module** in **Encoder/decoder**
 
-   <p style="text-align: center;"><img src="{{ "/images/2018-08-25-attention-is-all-you-need.png" | absolute_url }}" alt="" /></p>
+   <p class="fit" style="text-align: center;"><img style="height: 400px;" src="{{ "/images/2018-08-25-attention-is-all-you-need.png" | absolute_url }}" alt="" /></p>
    
 
    - Scaled-dot-product attention/multi-head attention in **Attention-module**
 
-   <p class="fit" style="text-align: center;"><img src="{{ "/images/2018-08-25-attention-is-all-you-need2.png" | absolute_url }}" alt="" /></p>
+   <p class="fit" style="text-align: center;"><img style="height: 500px;" src="{{ "/images/2018-08-25-attention-is-all-you-need2.png" | absolute_url }}" alt="" /></p>
 
 
 5. 这篇文章的解决方法背后的物理意义是什么
@@ -55,7 +55,7 @@ date:   2018-08-25
 
    attention的结果也可以获得很好的效果展示
 
-   ![](/Users/liujiaxiang/Document/olenet.github.io/_posts/static/pics/2018-08-25-attention-is-all-you-need3.png)
+   <p class="fit" style="text-align: center;"><img style="height: 100px;" src="{{ "/images/2018-08-25-attention-is-all-you-need3.png" | absolute_url }}" alt="" /></p>
 
 10. 这篇文章发论文的套路是什么
 

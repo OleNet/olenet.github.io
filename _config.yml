@@ -37,6 +37,9 @@ plugins:
   - jekyll-paginate
   - jekyll-toc
 
+mathjax:            true
+
+
 # Build settings
 markdown: kramdown
 theme: minima
