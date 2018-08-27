@@ -4,7 +4,10 @@ title:  Solving the Partial Label Learning Problem An Instance-based Approach
 toc: true 
 excerpt: 
 date:   2018-08-23
+math: true
 ---
+math: true
+
 
 1. 文章背景简介
 
