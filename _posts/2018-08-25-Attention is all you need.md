@@ -55,7 +55,7 @@ date:   2018-08-25
 
    attention的结果也可以获得很好的效果展示
 
-   <p class="fit" style="text-align: center;"><img style="height: 100px;" src="{{ "/images/2018-08-25-attention-is-all-you-need3.png" | absolute_url }}" alt="" /></p>
+   <p class="fit" style="text-align: center;"><img style="height: 300px;" src="{{ "/images/2018-08-25-attention-is-all-you-need3.png" | absolute_url }}" alt="" /></p>
 
 10. 这篇文章发论文的套路是什么
 
