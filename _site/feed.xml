@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-28T02:30:45+08:00</updated><id>http://localhost:4000/</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</subtitle><author><name>GitHub User</name></author><entry><title type="html">Attention is all you need</title><link href="http://localhost:4000/2018/08/25/Attention-is-all-you-need.html" rel="alternate" type="text/html" title="Attention is all you need" /><published>2018-08-25T00:00:00+08:00</published><updated>2018-08-25T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/25/Attention%20is%20all%20you%20need</id><content type="html" xml:base="http://localhost:4000/2018/08/25/Attention-is-all-you-need.html">&lt;ol&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-28T02:36:33+08:00</updated><id>http://localhost:4000/</id><title type="html">OleNet</title><subtitle>Olé is an interjection. an exclamation of approval or encouragement customary at bullfights, flamenco dancing, and other Spanish or Latin American events. noun.</subtitle><entry><title type="html">Attention is all you need</title><link href="http://localhost:4000/2018/08/25/Attention-is-all-you-need.html" rel="alternate" type="text/html" title="Attention is all you need" /><published>2018-08-25T00:00:00+08:00</published><updated>2018-08-25T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/25/Attention%20is%20all%20you%20need</id><content type="html" xml:base="http://localhost:4000/2018/08/25/Attention-is-all-you-need.html">&lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;文章背景简介&lt;/p&gt;
 
@@ -69,7 +68,7 @@ MT: Machine Translation&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;颠覆了当时MT-DL都要走CNN、RNN的套路，提出了完全基于Attention的方法，不仅效果好，计算也比较快。&lt;/p&gt;</content><author><name>GitHub User</name></author><summary type="html">文章背景简介</summary></entry><entry><title type="html">Solving the Partial Label Learning Problem An Instance-based Approach</title><link href="http://localhost:4000/2018/08/23/Solving-the-Partial-Label-Learning-Problem-An-Instance-based-Approach.html" rel="alternate" type="text/html" title="Solving the Partial Label Learning Problem An Instance-based Approach" /><published>2018-08-23T00:00:00+08:00</published><updated>2018-08-23T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/23/Solving%20the%20Partial%20Label%20Learning%20Problem%20An%20Instance-based%20Approach</id><content type="html" xml:base="http://localhost:4000/2018/08/23/Solving-the-Partial-Label-Learning-Problem-An-Instance-based-Approach.html">&lt;p&gt;math: true&lt;/p&gt;
+&lt;p&gt;颠覆了当时MT-DL都要走CNN、RNN的套路，提出了完全基于Attention的方法，不仅效果好，计算也比较快。&lt;/p&gt;</content><author><name></name></author><summary type="html">文章背景简介</summary></entry><entry><title type="html">Solving the Partial Label Learning Problem An Instance-based Approach</title><link href="http://localhost:4000/2018/08/23/Solving-the-Partial-Label-Learning-Problem-An-Instance-based-Approach.html" rel="alternate" type="text/html" title="Solving the Partial Label Learning Problem An Instance-based Approach" /><published>2018-08-23T00:00:00+08:00</published><updated>2018-08-23T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/23/Solving%20the%20Partial%20Label%20Learning%20Problem%20An%20Instance-based%20Approach</id><content type="html" xml:base="http://localhost:4000/2018/08/23/Solving-the-Partial-Label-Learning-Problem-An-Instance-based-Approach.html">&lt;p&gt;math: true&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -137,7 +136,7 @@ MT: Machine Translation&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;在一个比较偏的领域，解决了前人的问题，并给出大量的实验证明。&lt;/p&gt;</content><author><name>GitHub User</name></author><summary type="html">math: true</summary></entry><entry><title type="html">Optimization As A Model For Few-shot Learning</title><link href="http://localhost:4000/2018/08/22/Optimization-As-A-Model-For-Few-shot-Learning.html" rel="alternate" type="text/html" title="Optimization As A Model For Few-shot Learning" /><published>2018-08-22T00:00:00+08:00</published><updated>2018-08-22T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/22/Optimization%20As%20A%20Model%20For%20Few-shot%20Learning</id><content type="html" xml:base="http://localhost:4000/2018/08/22/Optimization-As-A-Model-For-Few-shot-Learning.html">&lt;ol&gt;
+&lt;p&gt;在一个比较偏的领域，解决了前人的问题，并给出大量的实验证明。&lt;/p&gt;</content><author><name></name></author><summary type="html">math: true</summary></entry><entry><title type="html">Optimization As A Model For Few-shot Learning</title><link href="http://localhost:4000/2018/08/22/Optimization-As-A-Model-For-Few-shot-Learning.html" rel="alternate" type="text/html" title="Optimization As A Model For Few-shot Learning" /><published>2018-08-22T00:00:00+08:00</published><updated>2018-08-22T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/22/Optimization%20As%20A%20Model%20For%20Few-shot%20Learning</id><content type="html" xml:base="http://localhost:4000/2018/08/22/Optimization-As-A-Model-For-Few-shot-Learning.html">&lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;文章背景简介&lt;/p&gt;
 
@@ -217,7 +216,7 @@ MT: Machine Translation&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;用一个经典的思想，改造整个网络架构，清晰、简洁，有创新。&lt;/p&gt;</content><author><name>GitHub User</name></author><summary type="html">文章背景简介</summary></entry><entry><title type="html">LSTM</title><link href="http://localhost:4000/2018/08/20/LSTM.html" rel="alternate" type="text/html" title="LSTM" /><published>2018-08-20T00:00:00+08:00</published><updated>2018-08-20T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/20/LSTM</id><content type="html" xml:base="http://localhost:4000/2018/08/20/LSTM.html">&lt;p&gt;LSTM=long-short-term-memory&lt;/p&gt;
+&lt;p&gt;用一个经典的思想，改造整个网络架构，清晰、简洁，有创新。&lt;/p&gt;</content><author><name></name></author><summary type="html">文章背景简介</summary></entry><entry><title type="html">LSTM</title><link href="http://localhost:4000/2018/08/20/LSTM.html" rel="alternate" type="text/html" title="LSTM" /><published>2018-08-20T00:00:00+08:00</published><updated>2018-08-20T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/20/LSTM</id><content type="html" xml:base="http://localhost:4000/2018/08/20/LSTM.html">&lt;p&gt;LSTM=long-short-term-memory&lt;/p&gt;
 
 &lt;p&gt;LSTM的输入有&lt;/p&gt;
 
@@ -256,7 +255,7 @@ MT: Machine Translation&lt;/p&gt;
 
 &lt;p&gt;$o_t=W_o[x_t, h_{t-1}]+b_o$&lt;/p&gt;
 
-&lt;p&gt;$h_t =o_ttanh(C_t)$&lt;/p&gt;</content><author><name>GitHub User</name></author><summary type="html">LSTM=long-short-term-memory</summary></entry><entry><title type="html">Neural collaborative filtering实验总结</title><link href="http://localhost:4000/2018/08/19/Neural-collaborative-filtering%E5%AE%9E%E9%AA%8C%E6%80%BB%E7%BB%93.html" rel="alternate" type="text/html" title="Neural collaborative filtering实验总结" /><published>2018-08-19T00:00:00+08:00</published><updated>2018-08-19T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/19/Neural%20collaborative%20filtering%E5%AE%9E%E9%AA%8C%E6%80%BB%E7%BB%93</id><content type="html" xml:base="http://localhost:4000/2018/08/19/Neural-collaborative-filtering%E5%AE%9E%E9%AA%8C%E6%80%BB%E7%BB%93.html">&lt;p&gt;参考了作者公开的&lt;a href=&quot;https://github.com/hexiangnan/neural_collaborative_filtering&quot;&gt;源码1&lt;/a&gt;和另一个网友的&lt;a href=&quot;https://github.com/LaceyChen17/neural-collaborative-filtering&quot;&gt;源码2&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;$h_t =o_ttanh(C_t)$&lt;/p&gt;</content><author><name></name></author><summary type="html">LSTM=long-short-term-memory</summary></entry><entry><title type="html">Neural collaborative filtering实验总结</title><link href="http://localhost:4000/2018/08/19/Neural-collaborative-filtering%E5%AE%9E%E9%AA%8C%E6%80%BB%E7%BB%93.html" rel="alternate" type="text/html" title="Neural collaborative filtering实验总结" /><published>2018-08-19T00:00:00+08:00</published><updated>2018-08-19T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/19/Neural%20collaborative%20filtering%E5%AE%9E%E9%AA%8C%E6%80%BB%E7%BB%93</id><content type="html" xml:base="http://localhost:4000/2018/08/19/Neural-collaborative-filtering%E5%AE%9E%E9%AA%8C%E6%80%BB%E7%BB%93.html">&lt;p&gt;参考了作者公开的&lt;a href=&quot;https://github.com/hexiangnan/neural_collaborative_filtering&quot;&gt;源码1&lt;/a&gt;和另一个网友的&lt;a href=&quot;https://github.com/LaceyChen17/neural-collaborative-filtering&quot;&gt;源码2&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;作者公开的源码使用keras+tensorflow实现。但是年久失修，keras的版本和tf的版本远落后与最新版本，无法运行成功。索性找了pytorch版的代码。&lt;/p&gt;
 
@@ -293,7 +292,7 @@ MT: Machine Translation&lt;/p&gt;
   &lt;li&gt;
     &lt;p&gt;做实验写代码之前，一定要想清楚再动手。否则就是在猜，反而影响工程实现的效率。&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>GitHub User</name></author><summary type="html">参考了作者公开的源码1和另一个网友的源码2。</summary></entry><entry><title type="html">Adaptive, personalized diversity for visual discovery</title><link href="http://localhost:4000/2018/08/16/Adaptive,-personalized-diversity-for-visual-discovery.html" rel="alternate" type="text/html" title="Adaptive, personalized diversity for visual discovery" /><published>2018-08-16T00:00:00+08:00</published><updated>2018-08-16T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/16/Adaptive,%20personalized%20diversity%20for%20visual%20discovery</id><content type="html" xml:base="http://localhost:4000/2018/08/16/Adaptive,-personalized-diversity-for-visual-discovery.html">&lt;ol&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">参考了作者公开的源码1和另一个网友的源码2。</summary></entry><entry><title type="html">Adaptive, personalized diversity for visual discovery</title><link href="http://localhost:4000/2018/08/16/Adaptive,-personalized-diversity-for-visual-discovery.html" rel="alternate" type="text/html" title="Adaptive, personalized diversity for visual discovery" /><published>2018-08-16T00:00:00+08:00</published><updated>2018-08-16T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/16/Adaptive,%20personalized%20diversity%20for%20visual%20discovery</id><content type="html" xml:base="http://localhost:4000/2018/08/16/Adaptive,-personalized-diversity-for-visual-discovery.html">&lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;文章背景简介&lt;/p&gt;
 
@@ -374,11 +373,11 @@ MT: Machine Translation&lt;/p&gt;
   &lt;li&gt;
     &lt;p&gt;这篇文章发论文的套路是什么&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>GitHub User</name></author><summary type="html">文章背景简介</summary></entry><entry><title type="html">如何说服</title><link href="http://localhost:4000/2018/08/15/%E5%A6%82%E4%BD%95%E8%AF%B4%E6%9C%8D.html" rel="alternate" type="text/html" title="如何说服" /><published>2018-08-15T00:00:00+08:00</published><updated>2018-08-15T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/15/%E5%A6%82%E4%BD%95%E8%AF%B4%E6%9C%8D</id><content type="html" xml:base="http://localhost:4000/2018/08/15/%E5%A6%82%E4%BD%95%E8%AF%B4%E6%9C%8D.html">&lt;ol&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">文章背景简介</summary></entry><entry><title type="html">如何说服</title><link href="http://localhost:4000/2018/08/15/%E5%A6%82%E4%BD%95%E8%AF%B4%E6%9C%8D.html" rel="alternate" type="text/html" title="如何说服" /><published>2018-08-15T00:00:00+08:00</published><updated>2018-08-15T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/15/%E5%A6%82%E4%BD%95%E8%AF%B4%E6%9C%8D</id><content type="html" xml:base="http://localhost:4000/2018/08/15/%E5%A6%82%E4%BD%95%E8%AF%B4%E6%9C%8D.html">&lt;ol&gt;
   &lt;li&gt;察觉别人相信什么，权威？理性？感性&lt;/li&gt;
   &lt;li&gt;察觉别人信任谁&lt;/li&gt;
   &lt;li&gt;察觉别人的顾虑是什么、在乎什么？&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>GitHub User</name></author><summary type="html">察觉别人相信什么，权威？理性？感性 察觉别人信任谁 察觉别人的顾虑是什么、在乎什么？</summary></entry><entry><title type="html">onhot-representation</title><link href="http://localhost:4000/2018/08/14/onhot-representation.html" rel="alternate" type="text/html" title="onhot-representation" /><published>2018-08-14T00:00:00+08:00</published><updated>2018-08-14T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/14/onhot-representation</id><content type="html" xml:base="http://localhost:4000/2018/08/14/onhot-representation.html">&lt;p&gt;categorical variables&lt;/p&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">察觉别人相信什么，权威？理性？感性 察觉别人信任谁 察觉别人的顾虑是什么、在乎什么？</summary></entry><entry><title type="html">onhot-representation</title><link href="http://localhost:4000/2018/08/14/onhot-representation.html" rel="alternate" type="text/html" title="onhot-representation" /><published>2018-08-14T00:00:00+08:00</published><updated>2018-08-14T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/14/onhot-representation</id><content type="html" xml:base="http://localhost:4000/2018/08/14/onhot-representation.html">&lt;p&gt;categorical variables&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -403,7 +402,7 @@ MT: Machine Translation&lt;/p&gt;
 
 &lt;p&gt;Profit function&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://wikimedia.org/api/rest_v1/media/math/render/svg/9d1e8a61df56fc6627830c7d0dfdc8e4464abd19&quot; alt=&quot;\operatorname {probit}(/Users/liujiaxiang/Document/olenet.github.io/_posts/static/pics/profit_function.png)={\sqrt  {2}}\,\operatorname {erf}^1(2p-1).&quot; /&gt;&lt;/p&gt;</content><author><name>GitHub User</name></author><summary type="html">categorical variables</summary></entry><entry><title type="html">Neural Collaborative Filtering</title><link href="http://localhost:4000/2018/08/12/Neural-Collaborative-Filtering.html" rel="alternate" type="text/html" title="Neural Collaborative Filtering" /><published>2018-08-12T00:00:00+08:00</published><updated>2018-08-12T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/12/Neural%20Collaborative%20Filtering</id><content type="html" xml:base="http://localhost:4000/2018/08/12/Neural-Collaborative-Filtering.html">&lt;ol&gt;
+&lt;p&gt;&lt;img src=&quot;https://wikimedia.org/api/rest_v1/media/math/render/svg/9d1e8a61df56fc6627830c7d0dfdc8e4464abd19&quot; alt=&quot;\operatorname {probit}(/Users/liujiaxiang/Document/olenet.github.io/_posts/static/pics/profit_function.png)={\sqrt  {2}}\,\operatorname {erf}^1(2p-1).&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">categorical variables</summary></entry><entry><title type="html">Neural Collaborative Filtering</title><link href="http://localhost:4000/2018/08/12/Neural-Collaborative-Filtering.html" rel="alternate" type="text/html" title="Neural Collaborative Filtering" /><published>2018-08-12T00:00:00+08:00</published><updated>2018-08-12T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/12/Neural%20Collaborative%20Filtering</id><content type="html" xml:base="http://localhost:4000/2018/08/12/Neural-Collaborative-Filtering.html">&lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;文章背景简介&lt;/p&gt;
 
@@ -494,7 +493,7 @@ MT: Machine Translation&lt;/p&gt;
 
     &lt;p&gt;探索新的信息整合方式，模型更加简单也更有效，state-of-art.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>GitHub User</name></author><summary type="html">文章背景简介</summary></entry><entry><title type="html">GBK编码</title><link href="http://localhost:4000/2018/08/09/GBK%E7%BC%96%E7%A0%81.html" rel="alternate" type="text/html" title="GBK编码" /><published>2018-08-09T00:00:00+08:00</published><updated>2018-08-09T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/09/GBK%E7%BC%96%E7%A0%81</id><content type="html" xml:base="http://localhost:4000/2018/08/09/GBK%E7%BC%96%E7%A0%81.html">&lt;h2 id=&quot;预备知识&quot;&gt;预备知识&lt;/h2&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">文章背景简介</summary></entry><entry><title type="html">GBK编码</title><link href="http://localhost:4000/2018/08/09/GBK%E7%BC%96%E7%A0%81.html" rel="alternate" type="text/html" title="GBK编码" /><published>2018-08-09T00:00:00+08:00</published><updated>2018-08-09T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/09/GBK%E7%BC%96%E7%A0%81</id><content type="html" xml:base="http://localhost:4000/2018/08/09/GBK%E7%BC%96%E7%A0%81.html">&lt;h2 id=&quot;预备知识&quot;&gt;预备知识&lt;/h2&gt;
 
 &lt;p&gt;二进制数字&lt;/p&gt;
 
@@ -627,4 +626,4 @@ Chinese Internal Code Specification
   &lt;li&gt;在线进制转换: http://tool.oschina.net/hexconvert/&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;引用&quot;&gt;引用&lt;/h2&gt;</content><author><name>GitHub User</name></author><summary type="html">预备知识</summary></entry></feed>
+&lt;h2 id=&quot;引用&quot;&gt;引用&lt;/h2&gt;</content><author><name></name></author><summary type="html">预备知识</summary></entry></feed>
