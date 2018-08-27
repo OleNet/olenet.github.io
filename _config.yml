@@ -1,44 +1,25 @@
-# Site
-title:              OleNet
-bio:                'OleNet Liujiaxiang'
-description:        "Olé is an interjection. an exclamation of approval or encouragement customary at bullfights, flamenco dancing, and other Spanish or Latin American events. noun."
-locale:             cn
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: OleNet
+email: olenet##126.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Olé is an interjection. an exclamation of approval or encouragement customary at bullfights, flamenco dancing, and other Spanish or Latin American events. noun.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/blog/:title/"
-    layout: post
-    author:
-
-# Jekyll
-permalink:          /blog/:title/
-markdown:           kramdown
-highlighter:        rouge
-kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
-  input:  GFM
-  extensions:
-    - autolink
-    - footnotes
-    - smart
-mathjax:            true
-sass:
-  sass_dir:         _sass
-  style:            compressed
-
-# Comments
-disqus_shortname:   default
-
-# Social
 analytics-id:       "default"
 twitter:            LIUJiaXiang
 facebook:           default
@@ -46,13 +27,9 @@ instagram:          default
 github:             OleNet
 500px:              olenet
 
-# personal
 location:           Beijing
-phone:              xxx-xxxx-xxxx
-email:              olenet@126.com
 
-# Gems
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-feed
@@ -60,12 +37,23 @@ gems:
   - jekyll-paginate
   - jekyll-toc
 
-paginate: 6
-paginate_path: "/blog/page:num/"
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
 
 jekyll-mentions:
     base_url: https://github.com
 
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
-
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

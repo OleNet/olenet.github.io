@@ -22,6 +22,8 @@ date:   2018-08-01
 
    利用多任务框架，通过EncoderDecoder结构，引入外部知识，来学习item特征表达。再利用item-user向量相乘，预测ratings。
 
+  <p style="text-align: center;"><img src="{{ "/images/roc-auc.png" | absolute_url }}" alt="" /></p>
+
    ![image-20180801135823359](./static/pics/2018-08-01-cdl.png)
 
    ![image-20180801135900227](./static/pics/2018-08-01-cdl-2.png)

@@ -16,7 +16,8 @@ date:   2018-07-29
     DST的槽位由槽位类型和历史信息共同决定
 5. 这篇文章的亮点是什么
     提出了一个框架(1)，能够识别不在系统词表中定义的槽位值(2)，引入了一个dropout技术提高了槽位召回的问题(3)。
-     ![image-20180729221717023](./_posts/static/pics/e2e_handling_unknown_slot_values_dst.png)
+     <p style="text-align: center;"><img src="{{ "/images/e2e_handling_unknown_slot_values_dst.png" | absolute_url }}" alt="" /></p>
+
 6. 最终效果怎么样
     本文章为18年的成果，没有17年的MEMNN效果好(74.0% v.s. 72.1%)。但是这篇文章没有用SLU的输出，而且可以解决词表中没有定义槽位值的问题。
 7. 对当前的工作有什么借鉴意义

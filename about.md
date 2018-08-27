@@ -1,15 +1,16 @@
 ---
 layout: page
-title: OleNet - About - OleNet
+title: About Me
 description: Olé is an interjection. an exclamation of approval or encouragement customary at bullfights, flamenco dancing, and other Spanish or Latin American events. noun.
 sitemap:
     priority: 0.7
     lastmod: 2018-02-28
     changefreq: weekly
 ---
-## About our Site
 
-<span class="image left"><img src="{{ "/images/pic04.jpg" | absolute_url }}" alt="" /></span>
+<p class="image left"><img src="{{ "/images/pic04.jpg" | absolute_url }}" alt="" /></p>
+
+
 Hi, there,
 
 我是刘佳祥。算法工程师，现就职于百度工作，从事NLP的相关工作。

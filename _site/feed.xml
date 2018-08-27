@@ -1,451 +1,627 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-03-06T18:17:12+08:00</updated><id>/</id><title type="html">OleNet</title><subtitle>Olé is an interjection. an exclamation of approval or encouragement customary at bullfights, flamenco dancing, and other Spanish or Latin American events. noun.</subtitle><entry><title type="html">2018，你的Flag不能趴！</title><link href="/blog/2018%E4%BD%A0%E7%9A%84%E4%BA%BA%E7%94%9F%E4%B8%8D%E8%83%BD%E8%B6%B4/" rel="alternate" type="text/html" title="2018，你的Flag不能趴！" /><published>2018-03-06T00:00:00+08:00</published><updated>2018-03-06T00:00:00+08:00</updated><id>/blog/2018你的人生不能趴</id><content type="html" xml:base="/blog/2018%E4%BD%A0%E7%9A%84%E4%BA%BA%E7%94%9F%E4%B8%8D%E8%83%BD%E8%B6%B4/">&lt;h2 id=&quot;1-简介&quot;&gt;1. 简介&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-28T01:14:51+08:00</updated><id>http://localhost:4000/</id><title type="html">OleNet</title><subtitle>Olé is an interjection. an exclamation of approval or encouragement customary at bullfights, flamenco dancing, and other Spanish or Latin American events. noun.</subtitle><entry><title type="html">Attention is all you need</title><link href="http://localhost:4000/2018/08/25/Attention-is-all-you-need.html" rel="alternate" type="text/html" title="Attention is all you need" /><published>2018-08-25T00:00:00+08:00</published><updated>2018-08-25T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/25/Attention%20is%20all%20you%20need</id><content type="html" xml:base="http://localhost:4000/2018/08/25/Attention-is-all-you-need.html">&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;文章背景简介&lt;/p&gt;
 
-&lt;p&gt;年又双叒叕过完啦，结束大吃大喝又连发压岁钱的生活，回来看着体重秤上飙升的数字，看着银行卡里可怜的数字，有没有下定决心立下这些Flag&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;？&lt;/p&gt;
+    &lt;p&gt;Google的大作，发表在NIPS上，一作是Ashish Vaswani。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章什么领域的
+MT: Machine Translation&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章解决什么问题的&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;高效工作！&lt;/li&gt;
-  &lt;li&gt;怒减10斤！&lt;/li&gt;
-  &lt;li&gt;不再当月光族！&lt;/li&gt;
-  &lt;li&gt;一年读50本书！&lt;/li&gt;
-&lt;/ul&gt;
+    &lt;p&gt;不用CNN、RNN，只用Attention机制来做Machine Learning。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章的解决方法表面是什么&lt;/p&gt;
 
-&lt;p&gt;然而……这些Flag去年也立了为什么就倒下了呢？！
-如果你深深被这个问题困扰，那还犹豫什么呢？
-本次课程我们为大家请到了张辉老师，作为6年的老百度人，同时也是拥有58万粉丝的微信公众号【改变自己】的创始人之一，并在拥有众多粉丝的个人公众号【辉哥奇谭】坚持每日分享原创文章。在忙碌的工作之余，张辉始终践行自我提升，坚持每天健身、写作，同时也是价值投资的践行者，2017年他的A股年度收益率高达94.69%，跑赢了14只指数，打败了全国2918名基金经理。&lt;/p&gt;
-
-&lt;p&gt;通过本次课程，希望能帮你解开以下疑惑：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Part 1 以终为始：打开人生关键问题的钥匙
     &lt;ul&gt;
-      &lt;li&gt;如何找到自己真正的优势？&lt;/li&gt;
-      &lt;li&gt;我们为何要活在未来？&lt;/li&gt;
-      &lt;li&gt;决定未来30年成败的关键是什么？&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Encoder/decoder&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Attention-module&lt;/strong&gt; in &lt;strong&gt;Encoder/decoder&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/2018-08-25-attention-is-all-you-need.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Scaled-dot-product attention/multi-head attention in &lt;strong&gt;Attention-module&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p class=&quot;fit&quot; style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/2018-08-25-attention-is-all-you-need2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章的解决方法背后的物理意义是什么&lt;/p&gt;
+
+    &lt;p&gt;让模型通过attention机制学习到表示与映射。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章的亮点是什么&lt;/p&gt;
+
+    &lt;p&gt;无rnn、cnn的全attention架构&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章的缺点是什么&lt;/p&gt;
+
+    &lt;p&gt;N/A&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;最终效果怎么样&lt;/p&gt;
+
+    &lt;p&gt;评测的指标是BLEU&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;WMT 2014 English-to-German评测中，比最好的模型高2.0个BLEU（包括ensemble模型）&lt;/li&gt;
+      &lt;li&gt;WMT 2014 English-to-French评测中，要比所有的但模型结果要好，但是节省了1/4的浮点运算次数。&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Part 2 价值投资：财务自由并非是一个确定的数字
-    &lt;ul&gt;
-      &lt;li&gt;为什么你需要『三个经济支柱』？&lt;/li&gt;
-      &lt;li&gt;如何在投资中取胜？&lt;/li&gt;
-      &lt;li&gt;把自己变成一个平台&lt;/li&gt;
-    &lt;/ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;对当前的工作有什么借鉴意义&lt;/p&gt;
+
+    &lt;p&gt;attention is awesome.&lt;/p&gt;
+
+    &lt;p&gt;attention的结果也可以获得很好的效果展示&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/Users/liujiaxiang/Document/olenet.github.io/_posts/static/pics/2018-08-25-attention-is-all-you-need3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;Part 3 平行人生：重新与世界建立连接
-    &lt;ul&gt;
-      &lt;li&gt;如何与焦虑共处？&lt;/li&gt;
-      &lt;li&gt;第三空间与人生要事&lt;/li&gt;
-      &lt;li&gt;改变人生的『15分钟法则』&lt;/li&gt;
-    &lt;/ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章发论文的套路是什么&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&quot;2-以终为始打开人生关键问题的钥匙&quot;&gt;2. 以终为始：打开人生关键问题的钥匙：&lt;/h2&gt;
-&lt;p&gt;主讲人的观点：一个人的一生和经营一个公司是一样的。进而引出观点：&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;最好看投资书籍、其次、企业经营管理书籍、最差看成功学&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;颠覆了当时MT-DL都要走CNN、RNN的套路，提出了完全基于Attention的方法，不仅效果好，计算也比较快。&lt;/p&gt;</content><author><name></name></author><summary type="html">文章背景简介</summary></entry><entry><title type="html">Solving the Partial Label Learning Problem An Instance-based Approach</title><link href="http://localhost:4000/2018/08/23/Solving-the-Partial-Label-Learning-Problem-An-Instance-based-Approach.html" rel="alternate" type="text/html" title="Solving the Partial Label Learning Problem An Instance-based Approach" /><published>2018-08-23T00:00:00+08:00</published><updated>2018-08-23T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/23/Solving%20the%20Partial%20Label%20Learning%20Problem%20An%20Instance-based%20Approach</id><content type="html" xml:base="http://localhost:4000/2018/08/23/Solving-the-Partial-Label-Learning-Problem-An-Instance-based-Approach.html">&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;文章背景简介&lt;/p&gt;
 
-&lt;h3 id=&quot;反过来想总是反过来想&quot;&gt;反过来想，总是反过来想&lt;/h3&gt;
-&lt;p&gt;例如反过来想：我怎么死得更快、怎么更快的失业
-查理芒格：《穷查理宝典》&lt;/p&gt;
+    &lt;p&gt;二作是&lt;a href=&quot;https://www.zhihu.com/people/yu-fei-82&quot;&gt;于菲&lt;/a&gt;，东南大学。文章发表在IJCAI2015.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章什么领域的
+偏标记领域的文章&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章解决什么问题的&lt;/p&gt;
 
-&lt;h3 id=&quot;什么因素妨碍你的基业长青&quot;&gt;什么因素妨碍你的「基业长青」？&lt;/h3&gt;
-&lt;p&gt;22岁，经验不足
-28岁，同组人员竞争激烈
-30岁，结婚、买房、买车-负担好重
-33岁，生小孩-负担进一步加重
-39岁，升职不顺利
-40岁，「单位理哪些40岁的人都去哪里了」&lt;/p&gt;
+    &lt;p&gt;所谓的偏标记指的是训练样本$x_i$的label由一个集合$S_i$组成，其中只有一个$y_i\in S_i$是真正的label。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章的解决方法表面是什么&lt;/p&gt;
 
-&lt;h3 id=&quot;一定要找到自己人生的护城河&quot;&gt;一定要找到自己人生的护城河&lt;/h3&gt;
-&lt;p&gt;如果每一个人的人生都是一个持续的70-80年左右的独资私营公司，那么这家公司首先要考虑的就是『永续经营』的问题&lt;/p&gt;
-
-&lt;h3 id=&quot;换言之&quot;&gt;换言之&lt;/h3&gt;
-&lt;p&gt;一定要发现并且120%的发挥自己的真正优势&lt;/p&gt;
-
-&lt;h3 id=&quot;主讲人以自己为例&quot;&gt;主讲人以自己为例&lt;/h3&gt;
-&lt;p&gt;主讲人讲了几个故事，表达的观点是人生中的几个经历节点，借此发现了自身的优势—-爱写作、爱分享&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;小学时候的作文受到表扬&lt;/li&gt;
-  &lt;li&gt;在摩托罗拉喜欢分享&lt;/li&gt;
-  &lt;li&gt;在百度也在分享&lt;/li&gt;
-  &lt;li&gt;上了天天向上&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;怎样定义自己的优势&quot;&gt;怎样定义「自己的优势」？&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;擅长的&lt;/li&gt;
-  &lt;li&gt;有需求的&lt;/li&gt;
-  &lt;li&gt;能持续经营的&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;如何找到自己的优势&quot;&gt;如何找到自己的优势&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;历史中发现线索&lt;/li&gt;
-  &lt;li&gt;从市场需求中筛选&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;在过去中发现线索&quot;&gt;在过去中发现线索&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;什么样的经历屡次出现？&lt;/li&gt;
-  &lt;li&gt;什么事情总是在你的低潮期支撑你&lt;/li&gt;
-  &lt;li&gt;自己最敏感的是什么&lt;/li&gt;
-  &lt;li&gt;自己最难割舍的是什么&lt;/li&gt;
-  &lt;li&gt;最快乐的是什么&lt;/li&gt;
-  &lt;li&gt;自己最最痛苦的是什么
     &lt;ul&gt;
-      &lt;li&gt;有同样的人和你一样痛苦（需求、商机-&amp;gt;优势）&lt;/li&gt;
+      &lt;li&gt;Step1. $KNN$聚类，对每一个样本$x_i$聚类得到$k$个近邻样本。&lt;/li&gt;
+      &lt;li&gt;Step2. 计算$k$个样本，每一个样本对$x_i$的权重$H$。&lt;/li&gt;
+      &lt;li&gt;Step3. 初始化每一个样本$x_i$的标签集合$S_i$内$y\in S_i$的概率$p_i=\frac{1}{S_i}\in[1, c]$ ，$c$是类别个数
+这样假如有$m$个样本，那么就可以得到关于$p$的矩阵$P\in[m,c]$&lt;/li&gt;
+      &lt;li&gt;Step4. 令$F_o=P$, 那么利用样本权重迭代$F$，$\tilde{F}&lt;em&gt;{(t)} =\alpha·H^\mathsf{T}F&lt;/em&gt;{(t−1)} +(1−\alpha)·P $&lt;/li&gt;
+      &lt;li&gt;Step5. 迭代完成后，选取更新幅度最大的label作为样本的标签。$\hat{y_i}=\operatorname*{argmax}\limits_{y_c\in \mathcal{Y}} \frac{n_c}{\hat{n}&lt;em&gt;c}\cdot\hat{f}&lt;/em&gt;{i,c}$&lt;/li&gt;
     &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章的解决方法背后的物理意义是什么&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;同类别的样本之间是有联系的，这种联系可以用$KNN$去建模，同时再算出来近邻样本的权重。&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;利用这些近邻样本的标签和权重来迭代更新每个样本的$S_i$的分布。其实后面这一步，也就是step3, 也叫做propagation。说的简单一点，就是以周围样本影响力为权，计算指定目标数值的带权平均。&lt;/li&gt;
+      &lt;li&gt;训练完成后，分布变化最剧烈的标签就是目标标签。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章的亮点是什么&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;前人对于偏标记的做法是把$S_i$中的每一个标签都当做是label进行训练，在预测阶段，把输出的值取平均作为预测输出。这种方式显而易见粗暴。&lt;/li&gt;
+      &lt;li&gt;这篇文章开辟了另外一种方式来解决，利用到了样本之间的信息(可以理解为图)来做迭代。显然这种方式就没那么粗暴了。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章的缺点是什么&lt;/p&gt;
+
+    &lt;p&gt;似乎可以再多解释一下，为什么这种方式会work。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;最终效果怎么样&lt;/p&gt;
+
+    &lt;p&gt;N/A&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;对当前的工作有什么借鉴意义&lt;/p&gt;
+
+    &lt;p&gt;可以用KNN对样本进行聚类，然后获得多个样本之间的影响关系，进而做label propagation。这点挺有意思的。可以mark一下。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章发论文的套路是什么&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;在一个比较偏的领域，解决了前人的问题，并给出大量的实验证明。&lt;/p&gt;</content><author><name></name></author><summary type="html">文章背景简介</summary></entry><entry><title type="html">Optimization As A Model For Few-shot Learning</title><link href="http://localhost:4000/2018/08/22/Optimization-As-A-Model-For-Few-shot-Learning.html" rel="alternate" type="text/html" title="Optimization As A Model For Few-shot Learning" /><published>2018-08-22T00:00:00+08:00</published><updated>2018-08-22T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/22/Optimization%20As%20A%20Model%20For%20Few-shot%20Learning</id><content type="html" xml:base="http://localhost:4000/2018/08/22/Optimization-As-A-Model-For-Few-shot-Learning.html">&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;文章背景简介&lt;/p&gt;
+
+    &lt;p&gt;Twitter的文章。发表在ICLR 2017会议上。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章什么领域的&lt;/p&gt;
+
+    &lt;p&gt;$Meta-Learning$，元学习。
+所谓的元学习，由两部分组成&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;能够存储通用知识的模块$M(meta-learner)$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;能够快速通过几个样本训练得到的分类器模块$C(base-learner)$&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;而两个模块配合的方式为$M$可以生成分类器$F$的参数。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章解决什么问题的&lt;/p&gt;
+
+    &lt;p&gt;$Few-shot$情况下训练一个好的分类器的问题。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章的解决方法表面是什么
+用$LSTM$作为$M$,生成$F$的训练器参数。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章的解决方法背后的物理意义是什么&lt;/p&gt;
+
+    &lt;p&gt;$LSTM$中有一个重要的概念是$cell$,其状态可以用向量$c$来表示，随着timestep的迭代，其更新的公式为$c=f_t\odot c_{t-1} + i_t \odot \tilde{c_t}$&lt;/p&gt;
+
+    &lt;p&gt;其中$f$属于遗忘系数，控制着遗忘多少上一个timestep细胞的状态。$i$属于记忆系数，控制着本次细胞状态的权重。&lt;/p&gt;
+
+    &lt;p&gt;在本文的few-shot语境下，因为$base-learner$的参数更新机制为$\theta_t=\theta_{t-1}-\alpha_t\nabla\theta_{t-1}L_t$&lt;/p&gt;
+
+    &lt;p&gt;和$c$的更新机制太像了。索性就把$\theta_t$的生成套到$LSTM$的公式里面了：其中同样颜色的字母代表公式中同等地位的部分：&lt;/p&gt;
+
+    &lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/optimization_as_a_model_for_few_shot_learning.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;这样$M$专注于学习$f_t$和$i_t$就可以了。&lt;/p&gt;
+
+    &lt;p&gt;具体的学习过程可以先看一下输入数据：&lt;/p&gt;
+
+    &lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/optimization_as_a_model_for_few_shot_learning2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;这里面切记，以第一行为例，每一个baselearner领到了$meta-learner$分配的初始参数$w_0$之后，是由左至右,由$1\to\  t$即$1\to5$顺序进行的。每一个step完成后，向$meta-learning$汇报，再领取下一个step的参数$w_1$,以此类推。直到走到虚线右边，用$D_{test}$获取$meta-learner$的$loss$，更新$meta-learner$。&lt;/p&gt;
+
+    &lt;p&gt;用这样的方式训练一个记忆着通用信息的如同大脑般的$meta-learner$。&lt;/p&gt;
+
+    &lt;p&gt;这样，假设说我现在训练好了一个牛叉的meta-learner，明天想应急上线识别5个人脸： 林志玲、周杰伦、桂纶镁 、李彦宏、马云， 这五个人， 我收集5张照片， 通过meta-learner过一次这5张图片，就能得到一个识别这5个人的base-learner，明天就能上线了。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章的亮点是什么&lt;/p&gt;
+
+    &lt;p&gt;将meta-learning用LSTM的思想建模，上一个时序的任务信息带到当前时序继续学习。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章的缺点是什么&lt;/p&gt;
+
+    &lt;p&gt;如果没有meta-learning的基础的话，很多表达比较让人费解。应该在多介绍一下meta-learning的在related search里面或者introduction里面。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;最终效果怎么样&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;对当前的工作有什么借鉴意义&lt;/p&gt;
+
+    &lt;p&gt;明白了meta-learning是什么&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章发论文的套路是什么&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;用一个经典的思想，改造整个网络架构，清晰、简洁，有创新。&lt;/p&gt;</content><author><name></name></author><summary type="html">文章背景简介</summary></entry><entry><title type="html">LSTM</title><link href="http://localhost:4000/2018/08/20/LSTM.html" rel="alternate" type="text/html" title="LSTM" /><published>2018-08-20T00:00:00+08:00</published><updated>2018-08-20T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/20/LSTM</id><content type="html" xml:base="http://localhost:4000/2018/08/20/LSTM.html">&lt;p&gt;LSTM=long-short-term-memory&lt;/p&gt;
+
+&lt;p&gt;LSTM的输入有&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;上一个cell的信息$C_{t-1}$&lt;/li&gt;
+  &lt;li&gt;上一个cell的输出$h_{t-1}$&lt;/li&gt;
+  &lt;li&gt;本轮的输入$x_t$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;输出是&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;当前cell的信息$C_{t}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;当前cell的输出$h_{t}​$&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;未来的趋势&quot;&gt;未来的趋势&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;趋势
-今年想拿AI的投资不可能，因为今年的趋势是区块链&lt;/li&gt;
-  &lt;li&gt;小众的崛起&lt;/li&gt;
-  &lt;li&gt;关键点 = 「重叠点」（你独特的地方 &amp;amp; 未来市场的需求）&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;LSTM的精髓在遗忘过去的信息$C_{t-1}$即：&lt;/p&gt;
 
-&lt;h3 id=&quot;为什么要活在未来&quot;&gt;为什么要活在未来&lt;/h3&gt;
+&lt;p&gt;$C_{t}=tanh(f_tC_{t-1}+i_t\tilde{C})$&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;高估1-2年的事情，低估10年来的事情 
-–&lt;cite&gt;Bill Gates&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;其中我将$f_t$叫做遗忘因子，$i_t$叫做记忆因子。&lt;/p&gt;
 
-&lt;h3 id=&quot;人的弱点无法真的着眼长远&quot;&gt;人的弱点：无法真的着眼长远&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;更注重这次评职称的结果，而不是长远的发展&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;因为$\tilde{C}=W[x_t, h_{t-1}]+b$,即$\tilde{C}$仅用到了历史信息表达$h_{t-1}$，所以我认为$\tilde{C}$是cell的一个不完整信息的表达。&lt;/p&gt;
 
-&lt;h3 id=&quot;真正的恐惧和真正的希望产生真正的动力&quot;&gt;真正的恐惧和真正的希望产生真正的动力&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;会死-&amp;gt;珍惜现在&lt;/li&gt;
-  &lt;li&gt;10年以后体力下降严重 -&amp;gt; 认真健身&lt;/li&gt;
-  &lt;li&gt;…&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;而遗忘因子$f_t$和记忆因子$i_t$也是通过历史信息建模得到:&lt;/p&gt;
 
-&lt;h3 id=&quot;什么样的事情可以做30年&quot;&gt;什么样的事情可以做30年&lt;/h3&gt;
+&lt;p&gt;$f_t=\sigma(W_f[x_t, h_{t-1}]+b_f)$&lt;/p&gt;
 
-&lt;h3 id=&quot;决定未来30年成败的关键&quot;&gt;决定未来30年成败的关键？&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;目标出发，：我们需要大量的自由时间&lt;/li&gt;
-  &lt;li&gt;至于「财富自由」&lt;/li&gt;
-  &lt;li&gt;所谓的’自由时间’，就是不受工作、家人、打扰的时间。 
-  财富自由：不用出卖自己的时间换取财富&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;$i_t=\sigma(W_i[x_t, h_{t-1}]+b_i)$&lt;/p&gt;
 
-&lt;h2 id=&quot;3-价值投资财务自由并非是一个确定的数字&quot;&gt;3. 价值投资：财务自由并非是一个确定的数字&lt;/h2&gt;
+&lt;p&gt;有了当前cell的表达$C_t$，就可以计算当前cell的输出了:&lt;/p&gt;
 
-&lt;h3 id=&quot;怎样获得自由时间&quot;&gt;怎样获得自由时间？&lt;/h3&gt;
-&lt;p&gt;你需要多个支柱（收入来源）
-把个人类比成企业，企业的三种行为（又强调了一次把自己当成公司来经营，进而）：&lt;/p&gt;
+&lt;p&gt;$o_t=W_o[x_t, h_{t-1}]+b_o$&lt;/p&gt;
+
+&lt;p&gt;$h_t =o_ttanh(C_t)$&lt;/p&gt;</content><author><name></name></author><summary type="html">LSTM=long-short-term-memory</summary></entry><entry><title type="html">Neural collaborative filtering实验总结</title><link href="http://localhost:4000/2018/08/19/Neural-collaborative-filtering%E5%AE%9E%E9%AA%8C%E6%80%BB%E7%BB%93.html" rel="alternate" type="text/html" title="Neural collaborative filtering实验总结" /><published>2018-08-19T00:00:00+08:00</published><updated>2018-08-19T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/19/Neural%20collaborative%20filtering%E5%AE%9E%E9%AA%8C%E6%80%BB%E7%BB%93</id><content type="html" xml:base="http://localhost:4000/2018/08/19/Neural-collaborative-filtering%E5%AE%9E%E9%AA%8C%E6%80%BB%E7%BB%93.html">&lt;p&gt;参考了作者公开的&lt;a href=&quot;https://github.com/hexiangnan/neural_collaborative_filtering&quot;&gt;源码1&lt;/a&gt;和另一个网友的&lt;a href=&quot;https://github.com/LaceyChen17/neural-collaborative-filtering&quot;&gt;源码2&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;作者公开的源码使用keras+tensorflow实现。但是年久失修，keras的版本和tf的版本远落后与最新版本，无法运行成功。索性找了pytorch版的代码。&lt;/p&gt;
+
+&lt;p&gt;跑了别人的代码，也实现了自己代码，发现有很多东西可以总结一下：&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;经营&lt;/li&gt;
-  &lt;li&gt;融资&lt;/li&gt;
-  &lt;li&gt;投资&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;load数据的阶段争取用pytorch提供的DataLoader，速度可以提升非常大。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;用tensorboardX结果可视化。如果是远程开发机的话，不能可视化可以考虑是不是端口受限。tensorboardX默认端口是6006，可以将端口由6006改为8000试试。&lt;code class=&quot;highlighter-rouge&quot;&gt;tensorboard --logdir=./ --port=8000&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;代码结构按照，一般问题不大，用着都比较舒服。哪怕是跑集群任务，也可以把code和data分离开来，上传代码也比较方便。&lt;/p&gt;
 
-&lt;p&gt;类比到个人则&lt;/p&gt;
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;|-- code
+|   |-- data.py
+|   |-- evaluate.py
+|   |-- main.py
+|   |-- model.py
+|-- data
+|   |-- train.csv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;在动手之前，不仅要把网络结构的实现想好，其他的工程细节也尽量在5分钟之内想一下，具体包括&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;经营 = 本职工作&lt;/li&gt;
-  &lt;li&gt;融资 = 兴趣&lt;/li&gt;
-  &lt;li&gt;投资 = 投资&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;经营--本职工作&quot;&gt;经营 = 本职工作&lt;/h3&gt;
-
-&lt;h3 id=&quot;融资--兴趣&quot;&gt;融资 = 兴趣&lt;/h3&gt;
-&lt;p&gt;融资 = 兴趣（最好和工作无关， 避免公司利益冲突）现场有几个人表明已经通过兴趣获得了额外收入，如:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;阅文网站上写小说获取稿费&lt;/li&gt;
-  &lt;li&gt;写文章获取稿费&lt;/li&gt;
-  &lt;li&gt;股票投资获得收获
-主讲人建议，兴趣获得的钱不要画的太随便，要将这些钱再投入到兴趣上，激发更大的热情去发展自己的兴趣，获取更大的收入。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;把兴趣变成平台&quot;&gt;把兴趣变成平台&lt;/h4&gt;
-
-&lt;p&gt;例子：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;辉哥奇谈：一对多&lt;/li&gt;
-  &lt;li&gt;知识性求：多对多&lt;/li&gt;
-  &lt;li&gt;出书&lt;/li&gt;
-  &lt;li&gt;得到
-  阿里副总裁：智能商业20讲
-案例：我把一份时间买了5000次
-主讲人做了一次知乎live&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;投资股票投资&quot;&gt;投资（股票投资）&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“Compound interest is the eighth wonder of the world. He who understands it, earns it … he who 
-doesn’t … pays it.”&lt;/p&gt;
-
-  &lt;p&gt;― &lt;cite&gt;Albert Einstein&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;翻译成中文:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;复利&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;是宇宙间最强大的力量，复利是世界第八大奇迹。
-― &lt;cite&gt;阿尔贝特·爱因斯坦&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;4个秘诀&quot;&gt;4个秘诀：&lt;/h4&gt;
-
-&lt;h5 id=&quot;秘诀1-只买好公司&quot;&gt;秘诀1： 只买好公司&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;买股票就是买公司，你愿意成为哪家公司的股东？&lt;/li&gt;
-  &lt;li&gt;找一个有护城河的公司- 拥有护城河的公司有一个明显的标志：定价权。&lt;/li&gt;
-  &lt;li&gt;它可以主动、自由的选择是涨价、降价还是免费的竞争策略，而不是迫于竞争被迫跟进&lt;/li&gt;
-  &lt;li&gt;一个有护城河的公司不进不怕竞争，而且可能在每次竞争之后都变得更强&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;秘诀2-合适的价格买入&quot;&gt;秘诀2： 合适的价格买入&lt;/h5&gt;
-
-&lt;p&gt;参考百度指数，百度指数是上涨的曲线不要买，因为这种买这种公司的股票，时机不好，也有热度在里面。要进行价值投资，找准机会上车。长期持有。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;但好公司的股票价格一般都不便宜，而且一般不断上涨。要不要买入，何时买入，就成了一个问题&lt;/li&gt;
-  &lt;li&gt;股价是你要付出的成本，即使是一家有护城河的「好公司」，如果你在买入时支付过高的价格，这会严重侵蚀你的收益率（严格来是说是：年复合增长率）&lt;/li&gt;
-  &lt;li&gt;第一是耐心等待&lt;/li&gt;
-  &lt;li&gt;第二是定投&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;秘诀3持有足够长的时间&quot;&gt;秘诀3持有足够长的时间&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;任何好股票，如果你无法持有3年，那也很难取得真正的收益。股市永远在波动，谁也无法预测在你买入之后的下一秒。这家公司的股价是涨还是跌。&lt;/li&gt;
-  &lt;li&gt;比如我（主讲人）自己在过去几年买Apple股票和茅台股票时，每次刚买之后总是亏的。&lt;/li&gt;
-  &lt;li&gt;「足够长的时间」至少指「3年以上」，最好是5-10年。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;秘诀3-投入足够多的钱&quot;&gt;秘诀3： 投入足够多的钱&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;如果你需要改善自己的财务结构，则必须在你看中的标的上投入足够多的资金。&lt;/li&gt;
-  &lt;li&gt;赚「倍数」还是赚「基数」，个人认为应该首选「赚基数」，即以尽可能大的规模去投资&lt;/li&gt;
-  &lt;li&gt;只有基于「大数」的投资，才是真正有意义的投资。对于好公司，好投资，好股票，你总会后悔当初怎么没有多买一点，既然每次后悔的都差不多，那为什么不在一开始就少做后悔的事情&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;4-平行人生重新与世界建立连接&quot;&gt;4. 平行人生：重新与世界建立连接&lt;/h2&gt;
-
-&lt;h3 id=&quot;财务自由和精神自由是否可以共存&quot;&gt;财务自由和精神自由是否可以共存&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Don’t try to be useful. Try to be yourself: that is enough &amp;amp; that makes all the difference.&lt;/p&gt;
-
-  &lt;p&gt;― &lt;cite&gt;Paulo Coelho, Manuscript Found in Accra&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;自由的真正含义&quot;&gt;自由的真正含义：&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;自由的真正含义：思行合一&lt;/li&gt;
-  &lt;li&gt;不自由的根本原因：思行割裂&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;思行割裂-导致焦虑&quot;&gt;思行割裂 导致焦虑：&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;现实与预期不符&lt;/li&gt;
-  &lt;li&gt;思想与行为产生巨大差异，自己被迫做不喜欢的事情&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;缓解焦虑的方法&quot;&gt;缓解焦虑的方法&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;内省平衡自身找答案&lt;/li&gt;
-  &lt;li&gt;找到更多的蜘蛛&lt;/li&gt;
-  &lt;li&gt;与世界重新链接&lt;/li&gt;
-  &lt;li&gt;每天做一些有意义的小时&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;超越焦虑获得精神自由&quot;&gt;超越焦虑，获得精神自由&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;寻找人生的使命，去完成它&lt;/li&gt;
-  &lt;li&gt;减少因不必要的事情而出卖的时间&lt;/li&gt;
-  &lt;li&gt;花钱「买时间」- 买它人的经验，提升自己认知&lt;/li&gt;
-  &lt;li&gt;遵从「原则」， 不断优化（参考达里奥《原则》）&lt;/li&gt;
-  &lt;li&gt;用更多的时间取时间「思行合一」，完成自己必须完成的使命&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;自由的境界--禅语摩托车维修艺术&quot;&gt;自由的境界 -《禅语摩托车维修艺术》&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;「佛教的禅宗提倡大作，就是要使人物我两忘」。而在我所提到的摩托车维修问题上，你只要专地修理车子，就不会出现物我对立的情况。一旦真正地投入了工作之中，就可以说是在关心自己的工作，这就是关心的真正意义—-对自己手中的工作产生认同感。当一个人产生这种人工感的时候，他就会看到关心的另一个面—-良质。&lt;/p&gt;
-
-  &lt;p&gt;所以在维修摩托车的时候，最重要的就是要培养内心的宁静，让自己不要和工作环境疏离，在做其它的工作时也是同样的。这点做到了，其它的一切也就变得很自然。内心的宁静会产生正确的价值观，正确的价值观就会产生正确的思想，正确的思想就会产生正确的行动，而采取了正确的行动的工作，便可使别人从中看到做事人内心的平静。这就是韩国那面墙的意义，它反映出了人们精神上的状态。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;借机引出了『心流』的概念&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;如何实现如何从现在走向未来&quot;&gt;如何实现：如何从现在走向未来&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;承认现实&lt;/li&gt;
-  &lt;li&gt;梦想未来&lt;/li&gt;
-  &lt;li&gt;每日践行&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;承认现实&quot;&gt;承认现实&lt;/h4&gt;
-&lt;p&gt;此时此刻，开心？痛苦？&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;人最难的就是真是的面对自己&lt;/li&gt;
-  &lt;li&gt;综合多角度，写下自己的现状&lt;/li&gt;
-  &lt;li&gt;明确的知道自己的有缺点（特别是优势和短板）&lt;/li&gt;
-  &lt;li&gt;在每一刻都充分认可当下的状态&lt;/li&gt;
-  &lt;li&gt;勇敢的表达自己的心声&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;木桶原理不是让你去补短&lt;/p&gt;
-
-&lt;p&gt;死亡教育：发挥自己的天赋（&lt;strong&gt;gift&lt;/strong&gt;）,否则到死的时候，肯定会很后悔&lt;/p&gt;
-
-&lt;h4 id=&quot;梦想未来&quot;&gt;梦想未来&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;要有10-30年的眼光
     &lt;ul&gt;
-      &lt;li&gt;10年看产业趋势-势必人大&lt;/li&gt;
-      &lt;li&gt;30年看人生- 臣服于岁月&lt;/li&gt;
+      &lt;li&gt;数据的结构体（数据组织方式）&lt;/li&gt;
+      &lt;li&gt;评测代码的接口&lt;/li&gt;
+      &lt;li&gt;评测模块的测试&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;站在未来想今天&lt;/li&gt;
-  &lt;li&gt;把未来的趋势，人生的规律和自己的特长结合&lt;/li&gt;
-  &lt;li&gt;选择决定人生&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;做实验写代码之前，一定要想清楚再动手。否则就是在猜，反而影响工程实现的效率。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">参考了作者公开的源码1和另一个网友的源码2。</summary></entry><entry><title type="html">Adaptive, personalized diversity for visual discovery</title><link href="http://localhost:4000/2018/08/16/Adaptive,-personalized-diversity-for-visual-discovery.html" rel="alternate" type="text/html" title="Adaptive, personalized diversity for visual discovery" /><published>2018-08-16T00:00:00+08:00</published><updated>2018-08-16T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/16/Adaptive,%20personalized%20diversity%20for%20visual%20discovery</id><content type="html" xml:base="http://localhost:4000/2018/08/16/Adaptive,-personalized-diversity-for-visual-discovery.html">&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;文章背景简介&lt;/p&gt;
 
-&lt;h4 id=&quot;每日践行&quot;&gt;每日践行&lt;/h4&gt;
+    &lt;p&gt;2016年的文章。RecSys2016的Best, paper，作者来自Amazon。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章什么领域的
+推荐系统。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章解决什么问题的&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;挑选2-3个对人生至关重要的领域，比如学习、健康、理财&lt;/li&gt;
-  &lt;li&gt;每日坚持「微运动」，比如「10分钟运动」、「15分钟写作」等&lt;/li&gt;
-  &lt;li&gt;在坚持中寻找「正反馈循环」，内化习惯，超越「坚持」&lt;/li&gt;
-&lt;/ul&gt;
+    &lt;p&gt;在信息瀑布的模式下，能够实时的、个性化的推荐用户商品，并且提高CTR。&lt;/p&gt;
 
-&lt;h3 id=&quot;管理时间不如管理精力和空间&quot;&gt;管理时间不如管理精力和空间&lt;/h3&gt;
+    &lt;p&gt;&lt;img src=&quot;./static/pics/rec_amazn.png&quot; alt=&quot;image-20180816225506141&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章的解决方法表面是什么&lt;/p&gt;
 
-&lt;p&gt;李笑来，《时间的朋友》也有类似的观点&lt;/p&gt;
+    &lt;p&gt;文章分为三步走的方式&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;寻找自己的第三空间&lt;/li&gt;
-  &lt;li&gt;无力上的第三空间 = 家和办公室之外&lt;/li&gt;
-  &lt;li&gt;虚拟上的第三空间&lt;/li&gt;
-&lt;/ul&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;打分模块，将商品按照分数排序获得候选。&lt;/p&gt;
 
-&lt;h3 id=&quot;管理精力&quot;&gt;管理精力&lt;/h3&gt;
+        &lt;table&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;td&gt;首先用&lt;strong&gt;Probit Regression&lt;/strong&gt;对商品的属性和click的概率进行建模，得到$P(click&lt;/td&gt;
+              &lt;td&gt;item\  is\  viewed) $。&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;精力充沛做最重要的事情&lt;/li&gt;
-  &lt;li&gt;每个时间段只做一件事情&lt;/li&gt;
-  &lt;li&gt;高效的标注时进入心流&lt;/li&gt;
-  &lt;li&gt;保证充足睡民&lt;/li&gt;
-  &lt;li&gt;经常性的打盹&lt;/li&gt;
-&lt;/ul&gt;
+        &lt;p&gt;当然，有一些流行的商品可能会获得大量的曝光，有一些商品获得不了曝光。这样就会导致有一些商品一直没有办法被打分。为了避免这种问题，就需要有一种exploit-explore机制。本文用的是&lt;strong&gt;Thompson sampling&lt;/strong&gt;方法决定何时exploit，何时explore。&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;多样性评估模块，避免了一个屏幕内推荐的商品都是同一类的枯燥情况出现。&lt;/p&gt;
 
-&lt;h2 id=&quot;5-文中推荐资源汇总&quot;&gt;5. 文中推荐资源汇总&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;查理芒格：《穷查理宝典》&lt;/li&gt;
-  &lt;li&gt;词条：心流&lt;/li&gt;
-  &lt;li&gt;得到APP: 阿里副总裁的智能商业20讲&lt;/li&gt;
-  &lt;li&gt;词条：复利&lt;/li&gt;
-  &lt;li&gt;达里奥《原则》&lt;/li&gt;
-  &lt;li&gt;词条：心流&lt;/li&gt;
-  &lt;li&gt;《禅语摩托车维修艺术》&lt;/li&gt;
-  &lt;li&gt;李笑来《与时间做朋友》&lt;/li&gt;
-&lt;/ol&gt;
+        &lt;p&gt;为了保证展现数据的多样性，提升用户体验，在打分模块的基础上，还增加了另一个模块来对候选多样性进行打分，选取总分数最大的$k$个商品进行展示。&lt;/p&gt;
 
-&lt;hr /&gt;
+        &lt;p&gt;假设商品$i$的特征向量是$\bold{a}&lt;em&gt;i$, 则这$k$个商品的特征向量为$\sum&lt;/em&gt;{\bold{a}_i \in A_k}\bold{a}_i$，利用这份特征向量计算多样性打分，与第一部得到的分数相加，得到商品的多样性模块输出分值。&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;个性化模块，根据用户的点击数据更新商品的权重，影响打分模块&lt;/p&gt;
 
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;flag原义指旗帜。立flag直译指立下旗帜,为网络用语，多指说立下了一句振奋人心的誓言、诺言或者表达了一份决心。&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;人们常提到的72法则和115法则就是讲述复利奇迹的，即通过其可计算出在给定的利率下，大约需要多少年，投资可以有翻番和两倍的收益。比如年收益率有10%，那想得到翻番的收益的话，需要有约7.2年的时间，即72/10=7.2；如果想得到两倍收益，如1万元变成3万元，则计算为115/10=11.5，即需要有约11.5年的时间。从上述题目中我们发现，以10%的收益率，1万元变成2万元用了7.2年时间，但是再变成3万元却只用了4.3年时间（11.5-7.2=4.3）。也就是说，复利对财富的增长不是一条直线，而是有加速效应的。由于一般人对于简单算术更容易想象，而较难体验加速增长的计算，这就是复利总是能得到出人意料的结果的原因。&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;心流（英语：Mental flow）在心理学中是一种某者在专注进行某行为时所表现的心理状态。如艺术家在创作时所表现的心理状态。某者在此状态时，通常不愿被打扰，即抗拒中断。定义是一种将个人精神力完全投注在某种活动上的感觉；心流产生时同时会有高度的兴奋及充实感。齐克森米哈里认为，使心流发生的活动有多样性。&amp;nbsp;&lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content></entry><entry><title type="html">《统计自然语言处理》14章信息检索与问答系统摘记</title><link href="/blog/%E7%BB%9F%E8%AE%A1%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86-14%E7%AB%A0%E4%BF%A1%E6%81%AF%E6%A3%80%E7%B4%A2%E4%B8%8E%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E6%91%98%E8%AE%B0/" rel="alternate" type="text/html" title="《统计自然语言处理》14章信息检索与问答系统摘记" /><published>2018-03-01T00:00:00+08:00</published><updated>2018-03-01T00:00:00+08:00</updated><id>/blog/《统计自然语言处理》14章信息检索与问答系统摘记 </id><content type="html" xml:base="/blog/%E7%BB%9F%E8%AE%A1%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86-14%E7%AB%A0%E4%BF%A1%E6%81%AF%E6%A3%80%E7%B4%A2%E4%B8%8E%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E6%91%98%E8%AE%B0/">&lt;h2 id=&quot;1-psli&quot;&gt;1. PSLI&lt;/h2&gt;
+        &lt;p&gt;作者利用用户的点击数据来更新每一个特征的权重$\hat{\bold{w}}=(\bold{c_u}+\bold{\alpha_0})|\bold{c_u}+\alpha_0|_{1}^{-1}$。其中，$\alpha_0$可以人工拍，也可以在业务系统中统计出来。$\alpha_0$可以控制权重$\bold{w_u}$的分布，也就是其分布的参数($Dirichlet$分布)，$\bold{c}_u$是在参数$\bold{w_u}$下点击概率的分布($Multinomial$分布)。&lt;/p&gt;
 
-&lt;p&gt;概率潜在语义分析(PLSA)模型提出之初最主要应用即是辅助信息检索，称为潜在语义索引(PLSI). PLSI的全名是probabilistic
- latent semantic indexing.&lt;/p&gt;
+        &lt;p&gt;得到了用户相关的$\bold{w}$就可以代入计算第二个模块中去影响打分了。&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章的解决方法背后的物理意义是什么&lt;/p&gt;
 
-&lt;p&gt;由于PLSA和PLSI如此的相关，所以借用网友对plsa的一句描述&lt;/p&gt;
+    &lt;p&gt;作者认为用户的行为以及背后的偏好，都是一种概率分布。在这种思想下，作者不仅将用户的click行为进行了概率建模，click模型的参数进行了建模($Dirichlet$的思想)。&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;PLSA和LDA很像，都属于主题模型，即它们都认为上帝在写文章时先以一定概率选择了一个主题，然后在这主题下以一定概率选择
-了一个词，重复这个过程就完成了一篇文章，即 &lt;script type=&quot;math/tex&quot;&gt;(d_i,w_j)=p(z_k|d_i)p(w_j|z_k)&lt;/script&gt;其中$d$表示文章，$w$表示词，$z$表示主题。&lt;/p&gt;
-&lt;/blockquote&gt;
+    &lt;p&gt;通过比较完善的建模，将点击行为、商品属性、用户偏好都纳入进来对商品进行打分排序。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章的亮点是什么&lt;/p&gt;
 
-&lt;p&gt;可以理解为，plsi的 $z$ 变量是外部引入的潜在变量, 在plsa中恰好为主题这个属性.&lt;/p&gt;
+    &lt;p&gt;一种新的推荐界面下的推荐方法&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章的缺点是什么&lt;/p&gt;
 
-&lt;p&gt;根据plsi的公式原理，&lt;/p&gt;
+    &lt;p&gt;更新特征权重的方式有些粗暴，似乎可以做的更好一些。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;最终效果怎么样&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(d, w) = \sum_{z\in Z}(P(z) \times P(w|z) \times P(d|z))&lt;/script&gt;
-
-&lt;p&gt;通过EM算法，就可以得到一个$w$和$d$的概率分布。对于一个ad-hoc的query，就可以计算这个query和数据库中每一个$d$的概率之和，
-进而得到相关性。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-问答系统与传统信息检索系统的区别&quot;&gt;2. 问答系统与传统信息检索系统的区别&lt;/h2&gt;
+    &lt;p&gt;评估效果分为3个维度进行：用户时长、浏览数量、CTR。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;对当前的工作有什么借鉴意义&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章发论文的套路是什么&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">文章背景简介</summary></entry><entry><title type="html">如何说服</title><link href="http://localhost:4000/2018/08/15/%E5%A6%82%E4%BD%95%E8%AF%B4%E6%9C%8D.html" rel="alternate" type="text/html" title="如何说服" /><published>2018-08-15T00:00:00+08:00</published><updated>2018-08-15T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/15/%E5%A6%82%E4%BD%95%E8%AF%B4%E6%9C%8D</id><content type="html" xml:base="http://localhost:4000/2018/08/15/%E5%A6%82%E4%BD%95%E8%AF%B4%E6%9C%8D.html">&lt;ol&gt;
+  &lt;li&gt;察觉别人相信什么，权威？理性？感性&lt;/li&gt;
+  &lt;li&gt;察觉别人信任谁&lt;/li&gt;
+  &lt;li&gt;察觉别人的顾虑是什么、在乎什么？&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">察觉别人相信什么，权威？理性？感性 察觉别人信任谁 察觉别人的顾虑是什么、在乎什么？</summary></entry><entry><title type="html">onhot-representation</title><link href="http://localhost:4000/2018/08/14/onhot-representation.html" rel="alternate" type="text/html" title="onhot-representation" /><published>2018-08-14T00:00:00+08:00</published><updated>2018-08-14T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/14/onhot-representation</id><content type="html" xml:base="http://localhost:4000/2018/08/14/onhot-representation.html">&lt;p&gt;categorical variables&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;比较方面&lt;/th&gt;
-      &lt;th&gt;问答系统&lt;/th&gt;
-      &lt;th&gt;传统信息检索系统&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;红色&lt;/th&gt;
+      &lt;th&gt;白色&lt;/th&gt;
+      &lt;th&gt;绿色&lt;/th&gt;
+      &lt;th&gt;黑色&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;系统的输入&lt;/td&gt;
-      &lt;td&gt;自然语言提问&lt;/td&gt;
-      &lt;td&gt;关键词组合&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;系统的输出&lt;/td&gt;
-      &lt;td&gt;准确的答案&lt;/td&gt;
-      &lt;td&gt;相关文档的列表&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;所属的领域&lt;/td&gt;
-      &lt;td&gt;设计NLP和IR两个领域&lt;/td&gt;
-      &lt;td&gt;IR领域&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;信息的确定性&lt;/td&gt;
-      &lt;td&gt;用户信息需求相对明确&lt;/td&gt;
-      &lt;td&gt;用户信息需求相对模糊&lt;/td&gt;
+      &lt;td&gt;One-hot representation&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content></entry><entry><title type="html">Neural Transition-Based Dependency Parsing Flow Chart</title><link href="/blog/transition-based-depedency-parser-flow/" rel="alternate" type="text/html" title="Neural Transition-Based Dependency Parsing Flow Chart" /><published>2018-02-26T00:00:00+08:00</published><updated>2018-02-26T00:00:00+08:00</updated><id>/blog/transition-based-depedency-parser-flow</id><content type="html" xml:base="/blog/transition-based-depedency-parser-flow/">&lt;p&gt;This flow chart is based on code of stanford open course cs224n assinments2.&lt;/p&gt;
+&lt;/table&gt;
 
-&lt;p&gt;&lt;span class=&quot;fit&quot;&gt;&lt;img src=&quot;/images/transition-based-depedency-parser-flow.svg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;</content></entry><entry><title type="html">Ner Recognation via word window NN</title><link href="/blog/ner-word-window/" rel="alternate" type="text/html" title="Ner Recognation via word window NN" /><published>2018-02-26T00:00:00+08:00</published><updated>2018-02-26T00:00:00+08:00</updated><id>/blog/ner-word-window</id><content type="html" xml:base="/blog/ner-word-window/">&lt;p&gt;This flow chart is based on code of stanford open course cs224n assinments2.&lt;/p&gt;
+&lt;p&gt;Profit function&lt;/p&gt;
 
-&lt;p&gt;&lt;span class=&quot;fit&quot;&gt;&lt;img src=&quot;/images/word_window.svg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;</content></entry><entry><title type="html">Welcome to Massively: The Jekyll Theme!</title><link href="/blog/hello-e/" rel="alternate" type="text/html" title="Welcome to Massively: The Jekyll Theme!" /><published>2017-10-31T00:00:00+08:00</published><updated>2017-10-31T00:00:00+08:00</updated><id>/blog/hello-e</id><content type="html" xml:base="/blog/hello-e/">&lt;h2 id=&quot;how-to-use-this-theme&quot;&gt;How to Use This Theme&lt;/h2&gt;
-&lt;p&gt;Just go ahead and read up on &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;how to install Jekyll&lt;/a&gt;. It’s not too hard I promise!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://wikimedia.org/api/rest_v1/media/math/render/svg/9d1e8a61df56fc6627830c7d0dfdc8e4464abd19&quot; alt=&quot;\operatorname {probit}(/Users/liujiaxiang/Document/olenet.github.io/_posts/static/pics/profit_function.png)={\sqrt  {2}}\,\operatorname {erf}^1(2p-1).&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">categorical variables</summary></entry><entry><title type="html">Neural Collaborative Filtering</title><link href="http://localhost:4000/2018/08/12/Neural-Collaborative-Filtering.html" rel="alternate" type="text/html" title="Neural Collaborative Filtering" /><published>2018-08-12T00:00:00+08:00</published><updated>2018-08-12T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/12/Neural%20Collaborative%20Filtering</id><content type="html" xml:base="http://localhost:4000/2018/08/12/Neural-Collaborative-Filtering.html">&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;文章背景简介&lt;/p&gt;
 
-&lt;p&gt;Download this repository &lt;a href=&quot;https://github.com/iwiedenm/jekyll-theme-massively&quot;&gt;here&lt;/a&gt; and save it to any folder you want.&lt;/p&gt;
+    &lt;p&gt;作者Xiangnan He ，新加坡国立大学的Postdoc。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章什么领域的
+推荐系统&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章解决什么问题的&lt;/p&gt;
 
-&lt;p&gt;Open a terminal window or a command line and &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; to that location.&lt;/p&gt;
+    &lt;p&gt;用神经网络作为技术框架，将user和item的信息进行协同滤波。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章的解决方法表面是什么&lt;/p&gt;
 
-&lt;p&gt;Then enter: &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;. You can now access your new Jekyll site from &lt;a href=&quot;http://127.0.0.1:4000/&quot;&gt;http://127.0.0.1:4000/&lt;/a&gt;. Have fun exploring your new site!&lt;/p&gt;
+    &lt;p&gt;方法分为两部分，一部分是传统的CF，另一部分是多层神经网络。最后这两部分的产出会被合并成最终的score作为item的打分。Loss用的是Binary cross entropy loss。&lt;/p&gt;
 
-&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
-&lt;h3 id=&quot;auto-generating-sitemap&quot;&gt;Auto-Generating Sitemap&lt;/h3&gt;
-&lt;p&gt;The sitemap is auto generated! Just simply change the front matter of each site. It looks like so…&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sitemap:
-    priority: 0.7
-    lastmod: 2017-11-02
-    changefreq: weekly
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;h3 id=&quot;formspring-integration&quot;&gt;Formspring integration&lt;/h3&gt;
-&lt;p&gt;The contact form below each page on the footer actually collects information! Just change your email address in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file!&lt;/p&gt;</content><summary type="html">Huge thanks to HTML5 UP for making this awesome template! Let's see what it can do</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/pic02.jpg" /></entry></feed>
+    &lt;p&gt;评价指标用的是Hit Ratio和NDCG。&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;./_posts/static/pics/ncf-1.png&quot; alt=&quot;image-20180812221021151&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章的解决方法背后的物理意义是什么&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;这个网络的左部分表达了传统的CF的低层的user和item的响应程度&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;右半部分引入了一个表达能力更强的多层的NN来表达user和item的关系&lt;/p&gt;
+
+        &lt;p&gt;总的来说，引入了更多的参数，在embedding层面，对item和user的关系进行更丰富的建模&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章的亮点是什么
+尝试了前人没有尝试的一个方向：在计算user-item score 的思路上，直接E2E。与本文相比，前人更多的是使用NN来对auxiliary信息进行建模压缩表达，例如文章标题、或者声音的一些声音特征。而在最后计算score时，仍然用的是内积（参考网络左半部分）。本文的话，网络的右半部分添加了一个深层次的NN来同时计算score，最终融合。最后的结果也显示达到了一个state-of-art的水平。&lt;/p&gt;
+
+    &lt;p&gt;其实，通篇下来，作者一直没有使用其他的附加信息，在这个框架下就能达到这个地步，是很了不起了。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章的缺点是什么&lt;/p&gt;
+
+    &lt;p&gt;感觉上，RecSys的假设有一点很奇怪，不只是这一篇文章，即凡是没有打过分的数据(电影)，不管是不是用户潜在的喜欢的电影，label一律算0(负例)进行训练，这样的假设不会限制模型的能力吗？&lt;/p&gt;
+
+    &lt;p&gt;除此之外，不知道模型做更多的变换会不会更好，例如增加dropout、增加maxout、增加normalize层之类的。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;最终效果怎么样&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th&gt; &lt;/th&gt;
+          &lt;th&gt;NDCG@10&lt;/th&gt;
+          &lt;th&gt;HitRatio@10&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Best@MovieLen&lt;/td&gt;
+          &lt;td&gt;0.432&lt;/td&gt;
+          &lt;td&gt;0.707&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Best@Pinterest&lt;/td&gt;
+          &lt;td&gt;0.550&lt;/td&gt;
+          &lt;td&gt;0.873&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;对当前的工作有什么借鉴意义&lt;/p&gt;
+
+    &lt;p&gt;对这篇文章也进行了相应的复现。复现的过程中发现，模型其实是最好写的部分。模型之外的数据准备、评价时的速度问题，这些工程能力反倒是限制复现速度的瓶颈。&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;在数据准备时，可以考虑一些数据可以先通过提前算好写到硬盘的方式准备。&lt;/li&gt;
+      &lt;li&gt;数据准备时，也可以考虑提前想好一个简单数据结构，在不同的环节能更方便的取到想要的数据。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这篇文章发论文的套路是什么&lt;/p&gt;
+
+    &lt;p&gt;探索新的信息整合方式，模型更加简单也更有效，state-of-art.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">文章背景简介</summary></entry><entry><title type="html">GBK编码</title><link href="http://localhost:4000/2018/08/09/GBK%E7%BC%96%E7%A0%81.html" rel="alternate" type="text/html" title="GBK编码" /><published>2018-08-09T00:00:00+08:00</published><updated>2018-08-09T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/09/GBK%E7%BC%96%E7%A0%81</id><content type="html" xml:base="http://localhost:4000/2018/08/09/GBK%E7%BC%96%E7%A0%81.html">&lt;h2 id=&quot;预备知识&quot;&gt;预备知识&lt;/h2&gt;
+
+&lt;p&gt;二进制数字&lt;/p&gt;
+
+&lt;p&gt;十六进制的 &lt;code class=&quot;highlighter-rouge&quot;&gt;0x&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;gbk&quot;&gt;GBK&lt;/h2&gt;
+
+&lt;h3 id=&quot;gbk编码表示&quot;&gt;GBK编码表示&lt;/h3&gt;
+
+&lt;p&gt;GBK的汉字用2个字节表示。前面一个字节叫做高位，后面的一个字节叫做低位。&lt;/p&gt;
+
+&lt;p&gt;例如在内存中，汉字&lt;code class=&quot;highlighter-rouge&quot;&gt;皙&lt;/code&gt;对应的高位字节是&lt;code class=&quot;highlighter-rouge&quot;&gt;0x95(10010101)&lt;/code&gt;,低位字节是&lt;code class=&quot;highlighter-rouge&quot;&gt;0x91(10010001)&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;即2字节的汉字&lt;code class=&quot;highlighter-rouge&quot;&gt;皙&lt;/code&gt;的完整表达为&lt;code class=&quot;highlighter-rouge&quot;&gt;0x9591&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;gbk编码范围&quot;&gt;GBK编码范围&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;GBK编码范围：8140－FEFE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;其代表的含义是高位字节的范围是&lt;strong&gt;81-FE&lt;/strong&gt;(129-254)，低位字节的范围是&lt;strong&gt;40-FE&lt;/strong&gt;(64-254)。减去&lt;code class=&quot;highlighter-rouge&quot;&gt;0x[**]7F&lt;/code&gt;这一列不表示任何的汉字，每一个高位可以包含190个汉字。&lt;/p&gt;
+
+&lt;p&gt;例如，如下表格摘自GBK规范文档中的开始部分 [^GBK规范],第一个区域(丂-侢)对应的是&lt;code class=&quot;highlighter-rouge&quot;&gt;8140-81FE&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;全国信息技术标准化技术委员会
+汉字内码扩展规范(GBK)
+Chinese Internal Code Specification
+1.0 版
+
+（按编码顺序排列）
+
+81 ０ １ ２ ３ ４ ５ ６ ７ ８ ９ Ａ Ｂ Ｃ Ｄ Ｅ Ｆ
+４ 丂 丄 丅 丆 丏 丒 丗 丟 丠 両 丣 並 丩 丮 丯 丱
+５ 丳 丵 丷 丼 乀 乁 乂 乄 乆 乊 乑 乕 乗 乚 乛 乢
+６ 乣 乤 乥 乧 乨 乪 乫 乬 乭 乮 乯 乲 乴 乵 乶 乷
+７ 乸 乹 乺 乻 乼 乽 乿 亀 亁 亂 亃 亄 亅 亇 亊
+８ 亐 亖 亗 亙 亜 亝 亞 亣 亪 亯 亰 亱 亴 亶 亷 亸
+９ 亹 亼 亽 亾 仈 仌 仏 仐 仒 仚 仛 仜 仠 仢 仦 仧
+Ａ 仩 仭 仮 仯 仱 仴 仸 仹 仺 仼 仾 伀 伂 伃 伄 伅
+Ｂ 伆 伇 伈 伋 伌 伒 伓 伔 伕 伖 伜 伝 伡 伣 伨 伩
+Ｃ 伬 伭 伮 伱 伳 伵 伷 伹 伻 伾 伿 佀 佁 佂 佄 佅
+Ｄ 佇 佈 佉 佊 佋 佌 佒 佔 佖 佡 佢 佦 佨 佪 佫 佭
+Ｅ 佮 佱 佲 併 佷 佸 佹 佺 佽 侀 侁 侂 侅 來 侇 侊
+Ｆ 侌 侎 侐 侒 侓 侕 侖 侘 侙 侚 侜 侞 侟 価 侢
+
+82 ０ １ ２ ３ ４ ５ ６ ７ ８ ９ Ａ Ｂ Ｃ Ｄ Ｅ Ｆ
+４ 侤 侫 侭 侰 侱 侲 侳 侴 侶 侷 侸 侹 侺 侻 侼 侽
+５ 侾 俀 俁 係 俆 俇 俈 俉 俋 俌 俍 俒 俓 俔 俕 俖
+６ 俙 俛 俠 俢 俤 俥 俧 俫 俬 俰 俲 俴 俵 俶 俷 俹
+７ 俻 俼 俽 俿 倀 倁 倂 倃 倄 倅 倆 倇 倈 倉 倊
+８ 個 倎 倐 們 倓 倕 倖 倗 倛 倝 倞 倠 倢 倣 値 倧
+９ 倫 倯 倰 倱 倲 倳 倴 倵 倶 倷 倸 倹 倻 倽 倿 偀
+Ａ 偁 偂 偄 偅 偆 偉 偊 偋 偍 偐 偑 偒 偓 偔 偖 偗
+Ｂ 偘 偙 偛 偝 偞 偟 偠 偡 偢 偣 偤 偦 偧 偨 偩 偪
+Ｃ 偫 偭 偮 偯 偰 偱 偲 偳 側 偵 偸 偹 偺 偼 偽 傁
+Ｄ 傂 傃 傄 傆 傇 傉 傊 傋 傌 傎 傏 傐 傑 傒 傓 傔
+Ｅ 傕 傖 傗 傘 備 傚 傛 傜 傝 傞 傟 傠 傡 傢 傤 傦
+Ｆ 傪 傫 傭 傮 傯 傰 傱 傳 傴 債 傶 傷 傸 傹 傼
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;还有一个比较形象的码位分布图[^GBK分布图]:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./static/pics/gbk.png&quot; alt=&quot;20150707173014959&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;除此之外&quot;&gt;除此之外&lt;/h2&gt;
+
+&lt;h3 id=&quot;宽字符&quot;&gt;宽字符&lt;/h3&gt;
+
+&lt;p&gt;宽字符 wchar_t，在win32 中，wchar_t为16位（编码是UCS-2BE）；Linux中是32位（编码是UTF-32BE，等价于UCS-4B）。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;const wchar_t* ws = L&quot;中文abc&quot;;&lt;/code&gt; 的编码分别为：&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;0x4E2D 0x6587 0x0061 0x0062 0x0063 //win32，16位&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;0x00004E2D 0x00006587 0x00000061 0x00000062 0x00000063 //Linux，32位&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;双字节表达导致正则匹配时的歧义&quot;&gt;双字节表达导致正则匹配时的歧义&lt;/h3&gt;
+
+&lt;p&gt;由于GBK汉字是用两个字节进行表达，那很有可能在正则匹配时，导致两个紧邻的汉字被识别匹配到一个新词。&lt;/p&gt;
+
+&lt;p&gt;例如下面的python代码为例，&lt;code class=&quot;highlighter-rouge&quot;&gt;憰==\x91\x95&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;憪==\x91\x90&lt;/code&gt;,两个字紧邻就形成了&lt;code class=&quot;highlighter-rouge&quot;&gt;憰憪==\x91\x95\x91\x90&lt;/code&gt;,&lt;/p&gt;
+
+&lt;p&gt;假如我有一个正则式，恰好是匹配&lt;code class=&quot;highlighter-rouge&quot;&gt;皙==\x95\x91&lt;/code&gt;字，那就会导致，匹配的结果会意外的匹配成功。&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;In&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;re&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;In&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reg_pat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\x95\x91&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;In&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reg_pat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'gbk'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;晳&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;In&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;query&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\x91\x95\x91\x90&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;In&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;query&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'gbk'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;憰憪&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;In&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;findall&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reg_pat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;query&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'gbk'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#'晳'的gbk表达恰好在'憰憪'中, 会被匹配到&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;晳&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;不过，比较有意思的是，这种现象不会在C++的Boost正则库中出现。&lt;/p&gt;
+
+&lt;div class=&quot;language-c++ highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;TEST_F&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NovaReMatchTest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;TestRegexGBK&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// 憰 = 0x 9195&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// 憰 = 0x 9190&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// 皙 = 0x 9591&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;expression&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;utf8_to_gbk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;(皙)&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;boost&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;regex&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pattern&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;boost&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;regex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;expression&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;q&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;utf8_to_gbk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;憰憪&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;boost&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;smatch&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;what&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;boost&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;regex_search&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;what&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pattern&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;boost&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;match_extra&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vector&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;captures&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;get_captures&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;what&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;captures&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;captures&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;TRACE_LOG&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;captures : [%s]&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;captures&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c_str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Output:TRACE: [TestBody] captures : []&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// Output:TRACE: [TestBody] captures : []&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;资源&quot;&gt;资源&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;汉字字符集编码查询: https://www.qqxiuzi.cn/bianma/zifuji.php&lt;/li&gt;
+  &lt;li&gt;在线进制转换: http://tool.oschina.net/hexconvert/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;引用&quot;&gt;引用&lt;/h2&gt;</content><author><name></name></author><summary type="html">预备知识</summary></entry></feed>

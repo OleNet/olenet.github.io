@@ -30,7 +30,7 @@ date:   2018-07-30
 
    比传统方法要好, 数据集是Fader等人的QA数据集。
 
-   ![image-20180730113709086](./_posts/static/pics/memnetwork-result.png)
+ <p style="text-align: center;"><img src="{{ "/images/memnetwork-result.png" | absolute_url }}" alt="" /></p>
 
 7. 对当前的工作有什么借鉴意义
 

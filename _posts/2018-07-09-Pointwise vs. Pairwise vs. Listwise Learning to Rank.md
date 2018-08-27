@@ -14,7 +14,7 @@ date:   2018-07-09
 
 每次丢进算法两个文档，给出偏序关系，最后排序。
 
-![pairwise](./static/pics/pairwise.png)
+  <p style="text-align: center;"><img src="{{ "/images/pairwise.png" | absolute_url }}" alt="" /></p>
 
 
 ## Listwise
