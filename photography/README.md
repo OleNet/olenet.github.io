@@ -10,9 +10,9 @@
 ## 青海
 ![qinghai-horse](./qinghai-horse.jpg)
 
-![qinghai-mountain](./qinghai-mountain.jpg)
-
 ![qinghai-peace](./qinghai-peace.jpg)
+
+![qinghai-mountain](./qinghai-mountain.jpg)
 
 ![qinghai-prayer](./qinghai-prayer.jpg)
 
@@ -26,13 +26,15 @@
 
 
 ## 武汉科技大学
+
+![wust-bw5](./wust-bw5.jpg)
+
 ![wust-bw1](./wust-bw1.jpg)
 
 ![wust-bw3](./wust-bw3.jpg)
 
 ![wust-bw4](./wust-bw4.jpg)
 
-![wust-bw5](./wust-bw5.jpg)
 
 
 
