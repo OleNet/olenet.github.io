@@ -2,9 +2,9 @@
 
 ## 日本
 
-![japan-arashiyama](/Users/liujiaxiang/code/olenet.github.io/photography/japan-arashiyama.jpg)
+![japan-arashiyama](./japan-arashiyama.jpg)
 
-![japan-Fushimi-Inari-Taisha ](/Users/liujiaxiang/code/olenet.github.io/photography/japan-Fushimi-Inari-Taisha .jpg)
+![japan-Fushimi-Inari-Taisha ](./japan-Fushimi-Inari-Taisha.jpg)
 
 
 ## 青海
