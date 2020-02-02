@@ -49,7 +49,7 @@
 
 ## 你要的锤子在这里
 
-###RNN 循环神经网络
+### RNN 循环神经网络
 
 ![nl1](./rnn_enc.gif)
 
@@ -69,7 +69,7 @@
 
 - Learning phrase representations using RNN encoder-decoder for statistical machine translation
 
-###CNN 卷积神经网络
+### CNN 卷积神经网络
 
 正是因为 RNN 天然的工作机制导致有硬伤，大家还是探索是否可以利用 CNN 来解决问题。
 
@@ -84,7 +84,7 @@
 
 例如对于[^1]中使用了空洞卷积扩大了卷积核的尺寸，让卷积核的受视野变得更大。但是空洞卷积有一个问题，会产生棋盘格效应[^2]，为了解决这个问题同时保证受视野不变小，同时不要增加参数量，还有人提出了用深度可分离卷积来代替空洞卷积[^3]。
 
-###Transformer 变形金刚编码器
+### Transformer 变形金刚编码器
 
 Transformer 模型是2017年底 Google 团队提出来的模型。
 
