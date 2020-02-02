@@ -22,6 +22,20 @@
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
+  <script >
+    $docsify.plugins = [].concat(function(t) {
+    var a = Docsify.dom;
+    t.mounted(function(t) {
+        var n = a.create("div");
+        n.id = "commento";
+        var i = a.getNode("#main");
+        n.style = "width: " + i.clientWidth + "px !important; margin: 0 auto 20px;", a.appendTo(a.find(".content"), n);
+        var e = a.create("script");
+        e.src = "https://cdn.commento.io/js/commento.js", a.appendTo(a.body, e);
+    })
+}, $docsify.plugins);
+
+  </script>
 
 
 </body>
