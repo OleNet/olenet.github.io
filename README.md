@@ -1,10 +1,10 @@
-# Liu Jixiang's Homepage
+# Liu Jiaxiang's Homepage
 
 > What I cannot create, I do not understand.
 >
 > The first principle is that you must not fool yourself and you are the easiest person to fool.
 >
-> Physics is like sex: sure, it may give some practical results, but that's not why we do it.
+> -- <cite>Benjamin Franklin</cite>
 
 
 
