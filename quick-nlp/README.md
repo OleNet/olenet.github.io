@@ -142,7 +142,7 @@ ICLR 2020 中有一篇高分文章叫做，REFORMER: THE EFFICIENT TRANSFORMER�
 
 [^3]: Convolutional Sequence to Sequence Learning
 
-[^4]:WAVENET: A GENERATIVE MODEL FOR RAW AUDIO
+[^4]: WAVENET: A GENERATIVE MODEL FOR RAW AUDIO
 
-[^5]:Attention is All You Need
+[^5]: Attention is All You Need
 
