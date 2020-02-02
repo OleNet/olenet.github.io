@@ -49,13 +49,13 @@
 
 ## 你要的锤子在这里
 
-### RNN 循环神经网络
+###RNN 循环神经网络
 
-![rnn encoder](./rnn_enc.gif)
+![nl1](./rnn_enc.gif)
 
 利用 RNN 来解决序列生成任务是非常符合知觉、也非常契合序列生成任务的一个方案。因为 RNN 作为一个编码器将上一个时刻和当前时刻的信息做为输入，以上图中对『汉』这个字编码为例，RNN 的输入分别为『武』字的信息和『汉』字的信息。
 
-![rnn decoder](./rnn_dec.gif)
+![nl2-1](./rnn_dec.gif)
 
 在解码阶段，如图所示，可以将输入序列最后一个字的信息输入至负责解码的RNN，得到预测值，直至遇到结束标签</s>位置。
 
@@ -69,15 +69,13 @@
 
 - Learning phrase representations using RNN encoder-decoder for statistical machine translation
 
-### CNN 卷积神经网络
+###CNN 卷积神经网络
 
 正是因为 RNN 天然的工作机制导致有硬伤，大家还是探索是否可以利用 CNN 来解决问题。
 
 首先得益于CNN可以并行的优势，那就可以解决 RNN 这种基于 for 循环的训练模式，提高训练速度。在 RNN 擅长的读入全局即整句信息的优势方面，只要堆叠的CNN层数足够多，那么就可以达到RNN掌握全局信息的效果一样。 例如图中，对于尺寸为2的卷积核来说，堆叠4层之后，该层 (橘黄色部分) 就蕴含了输入层 (蓝色部分) 的5个词的信息，如果能够增大卷积核尺寸，那么就可以通过堆叠更少的层来达到蕴含输入层所有词的效果。
 
-[figure show how cnn recieves more information by stacking layers](./wave_net.png)
-
-<img src="./wave_net.png" alt="figure show how cnn recieves more information by stacking layers" style="zoom:40%;" />
+<img src="https://i.loli.net/2020/02/02/k2Ivdxf7QhnwiJH.png" alt="figure show how cnn recieves more information by stacking layers" style="zoom:40%;" />
 
 <center><div style="color:orange; border-bottom: 1px solid #d9d9d9;display: inline-block;color: #999; padding: 2px;">从该图可以看出，随着网络堆叠的层数加深，受视野会逐渐变大, 图自[4] </div></center>
 
@@ -86,7 +84,7 @@
 
 例如对于[^1]中使用了空洞卷积扩大了卷积核的尺寸，让卷积核的受视野变得更大。但是空洞卷积有一个问题，会产生棋盘格效应[^2]，为了解决这个问题同时保证受视野不变小，同时不要增加参数量，还有人提出了用深度可分离卷积来代替空洞卷积[^3]。
 
-### Transformer 变形金刚编码器
+###Transformer 变形金刚编码器
 
 Transformer 模型是2017年底 Google 团队提出来的模型。
 
@@ -106,7 +104,7 @@ Transformer 模型是2017年底 Google 团队提出来的模型。
 
 对于 CNN 来说: 上文我们有提到，为了掌握全局，即整个句子的信息，需要将 CNN 堆叠许多层才可以做到，当句子长度变大时，模型的复杂度要随之提升才能继续满足该特性，而 Attention 机制则不需要。 
 
-<img src="./attention.png" alt="attention structure in transformer" style="zoom:25%;" />
+<img src="https://i.loli.net/2020/02/02/mTK9pAP6SLxB2Z7.png" alt="attention structure in transformer" style="zoom:25%;" />
 
 <center><div style="color:orange; border-bottom: 1px solid #d9d9d9;display: inline-block;color: #999; padding: 2px;"> Attention 结构图，图自[5] </div></center>
 
@@ -116,8 +114,7 @@ Transformer 模型是2017年底 Google 团队提出来的模型。
 
 历史的车轮滚滚向前，虽然 Transformer 系列模型的能力已经得到了充分的证明，但是也有人看到了其暴露出来的问题愈发严重: 该系列模型太大了！
 
-<img src="./params_bar.png" alt="model parameter bar plot" style="zoom:30%;" />
-
+<img src="https://i.loli.net/2020/02/02/UwkCHPv8N4Opin9.png" alt="model parameter bar plot" style="zoom:30%;" />
 <center><div style="color:orange; border-bottom: 1px solid #d9d9d9;display: inline-block;color: #999; padding: 2px;"> 依据已发表论文，这里列出了一些主流模型的参数量，可以看出当前模型规模变得越来越大，模型训练耗费的金钱、时间越来越多。CV部分数据来源<a href="https://www.jeremyjordan.me/convnet-architectures/">这里</a>。价格数据来源: <a href="https://www。amazon。com/NVIDIA-Tesla-Volta-Accelerator-Graphics/dp/B07JVNHFFX/ref=mp_s_a_1_1?keywords=tesla+v100+32gb&qid=1577638823&sr=8-1" >amazon售卖数据</a></div></center>
 
 
@@ -142,7 +139,9 @@ ICLR 2020 中有一篇高分文章叫做，REFORMER: THE EFFICIENT TRANSFORMER�
 [^1]: Neural machine translation in linear time
 
 [^2]: Deconvolution and checkerboard artifacts。 
+
 [^3]: Convolutional Sequence to Sequence Learning
+
 [^4]:WAVENET: A GENERATIVE MODEL FOR RAW AUDIO
 
 [^5]:Attention is All You Need
