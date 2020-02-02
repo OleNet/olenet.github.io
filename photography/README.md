@@ -4,7 +4,7 @@
 
 ![japan-arashiyama](./japan-arashiyama.jpg)
 
-![japan-Fushimi-Inari-Taisha ](./japan-Fushimi-Inari-Taisha.jpg)
+![japan-Fushimi-Inari-Taisha ](./japan-fushimi-inari-taisha.jpg)
 
 
 ## 青海
