@@ -14,7 +14,7 @@
 
 ### Photography
 
-> * [一些摄影作品](/photography)
+> * [一些摄影作品](/photography/)
 
 ### About Me
 
