@@ -49,13 +49,13 @@
 
 ## 你要的锤子在这里
 
-###RNN 循环神经网络
+### RNN 循环神经网络
 
-![nl1](./rnn_enc.gif)
+![rnn encoder](./rnn_enc.gif)
 
 利用 RNN 来解决序列生成任务是非常符合知觉、也非常契合序列生成任务的一个方案。因为 RNN 作为一个编码器将上一个时刻和当前时刻的信息做为输入，以上图中对『汉』这个字编码为例，RNN 的输入分别为『武』字的信息和『汉』字的信息。
 
-![nl2-1](./rnn_dec.gif)
+![rnn decoder](./rnn_dec.gif)
 
 在解码阶段，如图所示，可以将输入序列最后一个字的信息输入至负责解码的RNN，得到预测值，直至遇到结束标签</s>位置。
 
@@ -69,11 +69,13 @@
 
 - Learning phrase representations using RNN encoder-decoder for statistical machine translation
 
-###CNN 卷积神经网络
+### CNN 卷积神经网络
 
 正是因为 RNN 天然的工作机制导致有硬伤，大家还是探索是否可以利用 CNN 来解决问题。
 
 首先得益于CNN可以并行的优势，那就可以解决 RNN 这种基于 for 循环的训练模式，提高训练速度。在 RNN 擅长的读入全局即整句信息的优势方面，只要堆叠的CNN层数足够多，那么就可以达到RNN掌握全局信息的效果一样。 例如图中，对于尺寸为2的卷积核来说，堆叠4层之后，该层 (橘黄色部分) 就蕴含了输入层 (蓝色部分) 的5个词的信息，如果能够增大卷积核尺寸，那么就可以通过堆叠更少的层来达到蕴含输入层所有词的效果。
+
+[figure show how cnn recieves more information by stacking layers](./wave_net.png)
 
 <img src="./wave_net.png" alt="figure show how cnn recieves more information by stacking layers" style="zoom:40%;" />
 
@@ -84,7 +86,7 @@
 
 例如对于[^1]中使用了空洞卷积扩大了卷积核的尺寸，让卷积核的受视野变得更大。但是空洞卷积有一个问题，会产生棋盘格效应[^2]，为了解决这个问题同时保证受视野不变小，同时不要增加参数量，还有人提出了用深度可分离卷积来代替空洞卷积[^3]。
 
-###Transformer 变形金刚编码器
+### Transformer 变形金刚编码器
 
 Transformer 模型是2017年底 Google 团队提出来的模型。
 
