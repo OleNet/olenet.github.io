@@ -7,7 +7,6 @@
 > -- <cite>Richard Feynman</cite>
 
 
-
 ### About NLP
 
 > * [天下武功为快不破，NLP锤子速度演化摘要](/quick-nlp/)
@@ -19,3 +18,5 @@
 ### About Me
 
 > * [关于我你想知道的](/about-me/)
+
+
