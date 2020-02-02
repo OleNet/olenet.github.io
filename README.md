@@ -1,18 +1,14 @@
-# Anonymous
-
-—— unpkg is a fast, global content delivery network for everything on npm. Use it to quickly and easily load any file from any package using a URL like:
+# Liu Jixiang's Homepage
 
 
+What I cannot create, I do not understand.
+The first principle is that you must not fool yourself and you are the easiest person to fool.
+Physics is like sex: sure, it may give some practical results, but that's not why we do it.
 
 
-## Header 1
 
-## Header 2
+### About NLP
 
-> * [我也有话要说](/i-have-a-say/)
+> * [天下武功为快不破，NLP锤子速度演化摘要](/quick-nlp/)
 
-## Header 3
-
-
-> * [I'm a link](/link-subfolder/)
 
