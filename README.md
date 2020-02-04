@@ -10,6 +10,7 @@
 ### About NLP
 
 > * [天下武功为快不破，NLP锤子速度演化摘要](/quick-nlp/)
+> * [跨语言预训练助力神经机翻](/cross-lingual-for-mt/)
 
 ### Photography
 
