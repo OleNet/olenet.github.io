@@ -17,7 +17,7 @@ Photo by [Romain Vignes](https://unsplash.com/@rvignes?utm_source=unsplash&utm_m
 
 ### 面向神经网络机器翻译的预训练
 
-因为 NMT (Nerual Machine Translation, 神经网络机器翻译) 天然的多语种属性，所以很自然的会想到，跨语言的预训练模型能否对 NMT 的效果产生益处呢？2019年，[(Song et al., 2019)](https://www.microsoft.com/en-us/research/uploads/prod/2019/06/MASS-paper-updated-002.pdf) 等人率先提出了面向序列生成的预训练模型 MASS，该模型通过让解码器进行语句重建的方式完成预训练；上文提到的 XLM 模型中，由于训练任务中含有机器翻译的训练目标，所以也可以自然的过渡到具体的 NMT 微调任务。随后 ([Liu et al., 2020](https://arxiv.org/pdf/2001.08210.pdf)) 等人提出了模型 mBART， 该模型以多语言语料为输入，引入了 [BART](https://arxiv.org/pdf/1910.13461.pdf) 模型的训练目标，在监督机器翻译和多种情况下的无监督机器翻译场景下做了验证。
+因为 NMT (Nerual Machine Translation, 神经网络机器翻译) 天然的多语种属性，所以很自然的会想到，跨语言的预训练模型能否对 NMT 的效果产生益处呢？2019年，([Song et al., 2019](https://www.microsoft.com/en-us/research/uploads/prod/2019/06/MASS-paper-updated-002.pdf)) 等人率先提出了面向序列生成的预训练模型 MASS，该模型通过让解码器进行语句重建的方式完成预训练；上文提到的 XLM 模型中，由于训练任务中含有机器翻译的训练目标，所以也可以自然的过渡到具体的 NMT 微调任务。随后 ([Liu et al., 2020](https://arxiv.org/pdf/2001.08210.pdf)) 等人提出了模型 mBART， 该模型以多语言语料为输入，引入了 [BART](https://arxiv.org/pdf/1910.13461.pdf) 模型的训练目标，在监督机器翻译和多种情况下的无监督机器翻译场景下做了验证。
 
 
 
@@ -34,7 +34,7 @@ Photo by [Romain Vignes](https://unsplash.com/@rvignes?utm_source=unsplash&utm_m
 - 跨语言预训练的效果优劣和是否共享词表无关
 - 跨语言预训练的效果和共同训练的语言是否结构相似以及模型的深度有关有关 (例如英语和法语)
 
-### XLM
+### XLM: Cross-lingual Language Model Pretraining
 
 在 mBERT 的基础上，([Conneau et al, 2018](https://arxiv.org/abs/1901.07291)) 提出了增加一个翻译任务作为训练目标，如下图所示，
 
@@ -74,7 +74,7 @@ Photo by [Romain Vignes](https://unsplash.com/@rvignes?utm_source=unsplash&utm_m
 
 
 
-### XLM-R
+### XLM-R: Unsupervised Cross-lingual Representation Learning at Scale
 
 [(Conneau et al,. 2019)](https://arxiv.org/abs/1901.07291) 在上文提到过的 XLM 的基础上，进一步的扩大了语料至100种，并且融合更大规模的数据， 2.5 TB的CommonCrawl，完成了预训练。
 
@@ -90,17 +90,18 @@ Photo by [Romain Vignes](https://unsplash.com/@rvignes?utm_source=unsplash&utm_m
 
 XLM[R] 发现，对于 NMT 来说，预训练带来的收益是很大的，如下图所示，只要加入 pre-training 的 XLM，效果就会有提升，对比 SOTA 的 BLEU 涨了 0.5 个点 (越大越好)。
 
-<img src="./image-20200204173529399.png" alt="image-20200204173529399" style="zoom:30%;" />
+<div style="text-align:center"><img src="./cross-lingual-for-mt/image-20200204173529399.png" alt="image-20200204173529399" style="zoom:30%;" /></div>
+
 
 对于小语种来说，通过增加跨语言的语料进行 pre-training，也能为小语种的效果带来提升，如图中对于尼泊尔语 (Nepali)，通过增加英语与印度进行共同预训练，在混淆度 (perplexity) 这个指标上，有明显的下降 (越小越好)。
 
-<img src="./image-20200204173843127.png" alt="image-20200204173843127" style="zoom:30%;" />
+<div style="text-align:center"><img src="./cross-lingual-for-mt/image-20200204173843127.png" alt="image-20200204173843127" style="zoom:30%;" /></div>
 
 除了 pre-training 带来的效果收益以外，XLM 在进行翻译任务的微调时，还引入了一个比较通用的技巧：BackTranslation, 即假设我们想要将语言 $Src$ 翻译至 $Trg$，记作 $ Src \rarr Trg$，当 $Src$ 语料太少时，我们可以将 $Src \rarr Trg \rarr Src'$，这样就得到了 $Src'\rarr Trg$ 的语料，从而达到了扩展了语料的目的。
 
 当然 XLM-R 在 XLM 上做了扩展，虽然没有做关于 NMT 的实验，不过相信效果不会变差，具体项目目录在[这里](https://github.com/facebookresearch/xlm)
 
-### MASS
+### MASS: Masked Sequence to Sequence Pre-training for Language Generation Method
 
 与上述工作中只训练 encoder 不同，(Song et al, 2019](https://arxiv.org/abs/1905.02450)) 提出了一种专门同时训练 encoder 和 decoder 的网络结构。
 
@@ -110,15 +111,34 @@ XLM[R] 发现，对于 NMT 来说，预训练带来的收益是很大的，如�
 
 至于翻译任务来说，模型在预训练过程中，并没有使用跨语言之间的交互信息作为训练目标，不过模型使用了不同的语料共同训练该模型，对于每一种语言来说，都可以无监督的构造出来解码任务。
 
-### Multilingual Denoising Pre-training for NMT
+### mBART: Multilingual Denoising Pre-training for NMT
 
 这篇论文是基于 ([Lewis et al,. 2019](http://arxiv.org/abs/1910.13461)) 提出的模型 BART 进行改进的工作，BART 的预训练任务如下图所示：
 
-<img src="./image-20200204182531268.png" alt="image-20200204182531268" style="zoom:30%;" />
-
-该文章的一个比较重要的改进点是使用了一个从 Common Crawl 提取出来的多语种的语料 CC-25 进行预训练，训练过程中没有用平行语料、或者机器翻译的训练目标。从结果上，要由于 XLM-R 和 MASS。
+<div style="text-align:center"><img src="./cross-lingual-for-mt/image-20200204182531268.png" alt="image-20200204182531268" style="zoom:60%;" /></div>
 
 
 
-<img src="./image-20200204132628691.png" alt="image-20200204132628691" style="zoom:30%;" />
+该文章的一个比较重要的改进点是使用了一个从 Common Crawl 提取出来的多语种的语料 CC-25 进行预训练，训练过程中没有用平行语料、或者机器翻译的训练目标。从结果上，要优于 XLM-R 和 MASS。
 
+### Cross-Lingual Natural Language Generation via Pre-Training
+
+同样的在预训练过程中训练 encoder、decoder 还有 ([Chi et al., 2019](https://arxiv.org/pdf/1909.10481.pdf)) 提出来的工作。该工作目标是生成多语言的 NLG (Natrual Language Generation) 模型。在预训练时，取决于是将任务加载 encoder 还是 decoder，以及单语还是双语，设置了四种目标，如下图左下角坐标系所示：
+
+<img src="./cross-lingual-for-mt/image-20200204221531106.png" alt="image-20200204221531106" style="zoom:33%;" />
+
+其中 Encoder 中 MLM 是 BERT 使用的目标，XMLM 是 XLM 用的目标；Decoder 中和 mBART 使用的目标类似。
+
+### 
+
+### M4: Massively Multilingual Neural Machine Translation in the Wild: Findings and Challenges
+
+和 [T5 (11 billion参数的模型)](https://arxiv.org/pdf/1910.10683.pdf) 思路一样，用巨大的模型探索<u>**当下**</u>翻译模型的物理边界，([Arivazhagan et al., 2019](https://arxiv.org/pdf/1907.05019.pdf)) 提出了最大84 billion 数量级的模型，出了论文也可以看看[博客](https://ai.googleblog.com/2019/10/exploring-massively-multilingual.html)，感受一下：
+
+> We also studied other properties of very deep networks, including the depth-width trade-off, trainability challenges and design choices for scaling Transformers to over 1500 layers with 84 billion parameters.
+
+
+
+## 总结与展望
+
+从这条线的工作中，可以很坚定的说，基于多语言预训练的模型对于翻译质量的提升是毋庸置疑的。如果有 NMT 极限的话，那就不要犹豫了，假如到预训练的大军里，拥抱迁移学习就对了。
