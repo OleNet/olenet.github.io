@@ -129,7 +129,7 @@ XLM[R] 发现，对于 NMT 来说，预训练带来的收益是很大的，如�
 
 其中 Encoder 中 MLM 是 BERT 使用的目标，XMLM 是 XLM 用的目标；Decoder 中和 mBART 使用的目标类似。
 
-### 
+
 
 ### M4: Massively Multilingual Neural Machine Translation in the Wild: Findings and Challenges
 
