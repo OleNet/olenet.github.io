@@ -1,4 +1,3 @@
-[TOC]
 
 # Cross Lingual Boosting Machine Learning
 
