@@ -11,6 +11,7 @@
 
 > * [天下武功为快不破，NLP锤子速度演化摘要](/quick-nlp/)
 > * [跨语言预训练助力神经机翻](/cross-lingual-for-mt/)
+> * [利用对抗训练提升NLP模型效果--专题(一)](/adv/)
 
 ### Photography
 
