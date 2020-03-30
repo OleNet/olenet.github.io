@@ -48,16 +48,3 @@ Photo by [Nahel Abdul Hadi](https://unsplash.com/@nahelabdlhadi?utm_source=unspl
 
 
 
-
-
-
-
-# 利用对抗训练提升NLP模型效果--专题(二)
-
-## Vitrual Adversarial Training
-
-
-
-# 利用对抗训练提升NLP模型效果--专题(三)
-
-Free*
